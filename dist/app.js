@@ -57,7 +57,7 @@ document.addEventListener('click',e=>{
 });
 $('#library-search').addEventListener('input',renderLibrary);
 $('#library-theme').onclick=()=>{settings.theme=settings.theme==='dark'?'light':'dark';applySettings();writeStore('sai.settings',settings)};
-async function fetchChapter(b,index){const key=`${b.id}/${index}`;if(!cache.has(key)){const response=await fetch(`/books/${key}.json`);if(!response.ok)throw Error('본문을 불러오지 못했습니다.');cache.set(key,await response.json())}return cache.get(key)}
+async function fetchChapter(b,index){const key=`${b.id}/${index}`;if(!cache.has(key)){const response=await fetch(`./books/${key}.json`);if(!response.ok)throw Error('본문을 불러오지 못했습니다.');cache.set(key,await response.json())}return cache.get(key)}
 function currentRatio(){if(settings.mode==='pages')return pageCount<=1?0:page/(pageCount-1);const max=document.documentElement.scrollHeight-innerHeight;return max>0?Math.min(1,scrollY/max):0}
 function storePosition(){if(!book||!chapter)return;progress[book.id]={chapter:chapterIndex,page,ratio:currentRatio(),mode:settings.mode,updated:Date.now()};writeStore('sai.progress',progress)}
 function updateFooter(){if(!book||!chapter)return;
@@ -145,7 +145,7 @@ async function renderToc(){
     if(query.length<2){$('#toc-results').innerHTML='<p class="result-count">두 글자 이상 입력하면 이 책 전체에서 찾아드립니다.</p>';return}
     $('#toc-results').innerHTML='<p class="result-count">책 속을 찾고 있습니다…</p>';
     try{
-      if(!searchCache.has(book.id)){const response=await fetch(`/books/${book.id}/search.json`);if(!response.ok)throw Error();searchCache.set(book.id,await response.json())}
+      if(!searchCache.has(book.id)){const response=await fetch(`./books/${book.id}/search.json`);if(!response.ok)throw Error();searchCache.set(book.id,await response.json())}
       if(token!==searchToken||book!==targetBook)return;
       const matches=[];for(const c of searchCache.get(book.id)){for(let i=0;i<c.paragraphs.length;i++){const p=c.paragraphs[i],at=p.toLowerCase().indexOf(query);if(at>=0){matches.push({chapter:c.id,paragraph:i,excerpt:(at>65?'…':'')+p.slice(Math.max(0,at-65),at+query.length+110)+'…'});if(matches.length>=60)break}}if(matches.length>=60)break}
       $('#toc-results').innerHTML=`<p class="result-count">${matches.length===60?'처음 60개 결과':`${matches.length}개 결과`}</p>`+matches.map(m=>`<button class="toc-item" data-search-chapter="${m.chapter}" data-paragraph="${m.paragraph}">${escapeHTML(book.chapters[m.chapter].title)}<span class="search-excerpt" style="display:block">${escapeHTML(m.excerpt)}</span></button>`).join('');
@@ -160,5 +160,5 @@ $('#toc-results').addEventListener('click',async e=>{
   const found=e.target.closest('[data-search-chapter]');if(found){const index=Number(found.dataset.searchChapter),para=Number(found.dataset.paragraph);$('#toc-dialog').close();await openReader(book.id,index,{ratio:0});history.replaceState(null,'',`#/read/${book.id}/${index}`);requestAnimationFrame(()=>{const element=$(`#paragraph-${para}`);if(!element)return;if(settings.mode==='pages'){const offset=element.getBoundingClientRect().left-$('#page-viewport').getBoundingClientRect().left;page=Math.max(0,Math.min(pageCount-1,Math.floor((offset+2)/columnStep)));$('#prose').style.transform=`translateX(${-page*columnStep}px)`}else{element.scrollIntoView({block:'center'})}updateFooter();storePosition()})}
 });
 document.addEventListener('keydown',e=>{if(!book||!chapter||$('dialog[open]')||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.ctrlKey||e.metaKey||e.altKey)return;switch(e.key.toLowerCase()){case'arrowright':case'pagedown':e.preventDefault();turnPage(1);break;case'arrowleft':case'pageup':e.preventDefault();turnPage(-1);break;case'b':toggleBookmark();break;case't':$('#toc-open').click();break;case'a':$('#settings-open').click();break}});
-async function init(){try{const response=await fetch('/books/catalog.json');if(!response.ok)throw Error();catalog=await response.json();await route()}catch{$('#books-grid').innerHTML='<div class="empty-state"><p>책장을 불러오지 못했습니다. 인터넷 연결을 확인하고 새로고침하세요.</p><button id="reload-library">다시 불러오기</button></div>';$('#reload-library').onclick=init}}
+async function init(){try{const response=await fetch('./books/catalog.json');if(!response.ok)throw Error();catalog=await response.json();await route()}catch{$('#books-grid').innerHTML='<div class="empty-state"><p>책장을 불러오지 못했습니다. 인터넷 연결을 확인하고 새로고침하세요.</p><button id="reload-library">다시 불러오기</button></div>';$('#reload-library').onclick=init}}
 init();

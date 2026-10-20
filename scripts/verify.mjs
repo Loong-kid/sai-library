@@ -6,10 +6,19 @@ const {JSDOM,VirtualConsole}=require('jsdom');
 const html=readFileSync(new URL('../dist/index.html',import.meta.url),'utf8');
 const errors=[];
 const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
-const dom=new JSDOM(html,{url:'http://127.0.0.1:4173',runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:vc});
+const dom=new JSDOM(html,{url:'http://127.0.0.1:4173/sai-library/',runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:vc});
 const w=dom.window;
 w.matchMedia=()=>({matches:false});
-w.fetch=url=>fetch(new URL(url,'http://127.0.0.1:4173'));
+w.fetch=url=>{
+  const resolved=new URL(url,w.location.href);
+  assert.ok(resolved.pathname.startsWith('/sai-library/'),`Asset must stay under the project path: ${resolved.pathname}`);
+  resolved.pathname=resolved.pathname.slice('/sai-library'.length);
+  return fetch(resolved);
+};
+for(const asset of w.document.querySelectorAll('script[src],link[href]')){
+  const resolved=new URL(asset.getAttribute('src')||asset.getAttribute('href'),w.location.href);
+  if(resolved.origin===w.location.origin)assert.ok(resolved.pathname.startsWith('/sai-library/'));
+}
 Object.defineProperty(w.document,'fonts',{value:{ready:Promise.resolve()}});
 w.scrollTo=()=>{};w.scrollBy=()=>{};
 w.HTMLElement.prototype.scrollIntoView=function(){};
