@@ -30,14 +30,19 @@ w.eval(readFileSync(new URL('../dist/app.js',import.meta.url),'utf8')+'\nwindow.
 const $=s=>w.document.querySelector(s);
 async function until(fn,label){for(let i=0;i<150;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out: '+label)}
 await until(()=>$('.book-card'),'catalog');
-assert.equal(w.document.querySelectorAll('.book-card').length,2);
-assert.equal(w.testState().catalog.reduce((n,b)=>n+b.chapters.length,0),188);
+assert.equal(w.document.querySelectorAll('.book-card').length,3);
+assert.equal(w.testState().catalog.reduce((n,b)=>n+b.chapters.length,0),443);
 for(const b of w.testState().catalog){
   let words=0;
   for(const c of b.chapters){
     const data=JSON.parse(readFileSync(new URL(`../dist/books/${b.id}/${c.id}.json`,import.meta.url),'utf8'));
     assert.ok(data.paragraphs.length>0&&data.words>0,`Nonempty section: ${b.id}/${c.id}`);
     assert.equal(data.title,c.title);words+=data.words;
+    if(data.sourceImage){
+      assert.equal(data.sourcePage,c.id+18);
+      assert.ok(readFileSync(new URL(`../dist/${data.sourceImage.slice(2)}`,import.meta.url)).length>0);
+      assert.ok(data.capturedAt);
+    }
   }
   assert.equal(words,b.words);
 }
@@ -75,7 +80,38 @@ $('#toc-open').click();assert.equal(w.document.querySelectorAll('[data-go-chapte
 $('[data-go-chapter="69"]').click();await until(()=>w.testState().chapterIndex===69&&w.testState().chapter,'last chapter');
 assert.equal($('#next-chapter').disabled,true);
 assert.doesNotMatch($('#prose').textContent,/Download all your fav|RnD Novels/);
+assert.equal($('#source-open').hidden,true);
+$('#back-library').click();await until(()=>!$('#library').hidden,'return to shelf');
+$('#library-search').value='상어책';$('#library-search').dispatchEvent(new w.Event('input'));
+assert.equal(w.document.querySelectorAll('.book-card').length,1);
+$('[data-open-book="advanced-holdem"]').click();await until(()=>w.testState().book?.id==='advanced-holdem'&&w.testState().chapter,'open photographed book');
+await until(()=>!$('#next-chapter').disabled,'photo reader layout');
+assert.match($('#prose').textContent,/Gutshots are far more important/);
+assert.match($('#prose').textContent,/9♥-8♦/);
+assert.ok($('.ocr-note'));assert.equal($('#source-open').hidden,false);
+assert.match($('#chapter-label').textContent,/18쪽/);
+$('#source-open').click();assert.equal($('#source-dialog').open,true);
+assert.match($('#source-image').src,/sai-library\/books\/advanced-holdem\/pages\/001.webp$/);
+assert.equal($('#source-prev').disabled,true);
+$('#source-zoom').click();assert.ok($('#source-frame').classList.contains('zoomed'));
+$('#source-next').click();assert.match($('#source-caption').textContent,/19쪽/);
+assert.match($('#source-image').src,/002.webp$/);
+assert.ok(!$('#source-frame').classList.contains('zoomed'));
+$('#source-read').click();await until(()=>w.testState().chapterIndex===1&&w.testState().chapter&&!$('#next-chapter').disabled,'read source page 19');
+assert.equal($('#source-dialog').open,false);
+$('#toc-open').click();assert.equal(w.document.querySelectorAll('[data-go-chapter]').length,255);
+$('[data-tab="search"]').click();$('#toc-search').value='Snowie';$('#toc-search').dispatchEvent(new w.Event('input'));
+await until(()=>$('[data-search-chapter]'),'photo OCR full-text search');
+assert.match($('#toc-results').textContent,/Snowie/);
+$('#toc-dialog .close-dialog').click();
+w.location.hash='#/read/advanced-holdem/254';await until(()=>w.testState().chapterIndex===254&&w.testState().chapter,'last photographed page');
+$('#source-open').click();assert.equal($('#source-next').disabled,true);
+assert.match($('#source-caption').textContent,/272쪽/);
+$('#source-image').dispatchEvent(new w.Event('error'));assert.equal($('#source-error').hidden,false);
+$('#source-prev').click();assert.equal($('#source-error').hidden,true);
+assert.match($('#source-caption').textContent,/271쪽/);
+$('#source-dialog .close-dialog').click();
 assert.deepEqual(errors,[]);
-console.log('PASS: 2 books, 188 sections, shelf search, reader routes, page navigation, bookmark toggle, settings, scroll mode, full-text search, resume, last-chapter boundary.');
+console.log('PASS: 3 books, 443 sections, all source images, project-relative paths, original reading features, OCR search, source photo viewer, zoom, source-page navigation, missing-image handling.');
 console.log('DOM-only verification; browser rendering and mobile geometry were not available in this session.');
 dom.window.close();

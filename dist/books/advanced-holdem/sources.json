@@ -1,0 +1,2042 @@
+[
+  {
+    "id": 0,
+    "sourcePage": 18,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182121.jpg",
+    "capturedAt": "2023:06:12 18:21:21",
+    "sourceImage": "./books/advanced-holdem/pages/001.webp"
+  },
+  {
+    "id": 1,
+    "sourcePage": 19,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182125.jpg",
+    "capturedAt": "2023:06:12 18:21:25",
+    "sourceImage": "./books/advanced-holdem/pages/002.webp"
+  },
+  {
+    "id": 2,
+    "sourcePage": 20,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182134.jpg",
+    "capturedAt": "2023:06:12 18:21:33",
+    "sourceImage": "./books/advanced-holdem/pages/003.webp"
+  },
+  {
+    "id": 3,
+    "sourcePage": 21,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182137.jpg",
+    "capturedAt": "2023:06:12 18:21:37",
+    "sourceImage": "./books/advanced-holdem/pages/004.webp"
+  },
+  {
+    "id": 4,
+    "sourcePage": 22,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182151.jpg",
+    "capturedAt": "2023:06:12 18:21:51",
+    "sourceImage": "./books/advanced-holdem/pages/005.webp"
+  },
+  {
+    "id": 5,
+    "sourcePage": 23,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182154.jpg",
+    "capturedAt": "2023:06:12 18:21:54",
+    "sourceImage": "./books/advanced-holdem/pages/006.webp"
+  },
+  {
+    "id": 6,
+    "sourcePage": 24,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182200.jpg",
+    "capturedAt": "2023:06:12 18:22:00",
+    "sourceImage": "./books/advanced-holdem/pages/007.webp"
+  },
+  {
+    "id": 7,
+    "sourcePage": 25,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182204.jpg",
+    "capturedAt": "2023:06:12 18:22:04",
+    "sourceImage": "./books/advanced-holdem/pages/008.webp"
+  },
+  {
+    "id": 8,
+    "sourcePage": 26,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182214.jpg",
+    "capturedAt": "2023:06:12 18:22:14",
+    "sourceImage": "./books/advanced-holdem/pages/009.webp"
+  },
+  {
+    "id": 9,
+    "sourcePage": 27,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182217.jpg",
+    "capturedAt": "2023:06:12 18:22:17",
+    "sourceImage": "./books/advanced-holdem/pages/010.webp"
+  },
+  {
+    "id": 10,
+    "sourcePage": 28,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182226.jpg",
+    "capturedAt": "2023:06:12 18:22:26",
+    "sourceImage": "./books/advanced-holdem/pages/011.webp"
+  },
+  {
+    "id": 11,
+    "sourcePage": 29,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182230.jpg",
+    "capturedAt": "2023:06:12 18:22:29",
+    "sourceImage": "./books/advanced-holdem/pages/012.webp"
+  },
+  {
+    "id": 12,
+    "sourcePage": 30,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182246.jpg",
+    "capturedAt": "2023:06:12 18:22:46",
+    "sourceImage": "./books/advanced-holdem/pages/013.webp"
+  },
+  {
+    "id": 13,
+    "sourcePage": 31,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182250.jpg",
+    "capturedAt": "2023:06:12 18:22:50",
+    "sourceImage": "./books/advanced-holdem/pages/014.webp"
+  },
+  {
+    "id": 14,
+    "sourcePage": 32,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182307.jpg",
+    "capturedAt": "2023:06:12 18:23:07",
+    "sourceImage": "./books/advanced-holdem/pages/015.webp"
+  },
+  {
+    "id": 15,
+    "sourcePage": 33,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182310.jpg",
+    "capturedAt": "2023:06:12 18:23:10",
+    "sourceImage": "./books/advanced-holdem/pages/016.webp"
+  },
+  {
+    "id": 16,
+    "sourcePage": 34,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182318.jpg",
+    "capturedAt": "2023:06:12 18:23:18",
+    "sourceImage": "./books/advanced-holdem/pages/017.webp"
+  },
+  {
+    "id": 17,
+    "sourcePage": 35,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182320.jpg",
+    "capturedAt": "2023:06:12 18:23:20",
+    "sourceImage": "./books/advanced-holdem/pages/018.webp"
+  },
+  {
+    "id": 18,
+    "sourcePage": 36,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182336.jpg",
+    "capturedAt": "2023:06:12 18:23:36",
+    "sourceImage": "./books/advanced-holdem/pages/019.webp"
+  },
+  {
+    "id": 19,
+    "sourcePage": 37,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182339.jpg",
+    "capturedAt": "2023:06:12 18:23:38",
+    "sourceImage": "./books/advanced-holdem/pages/020.webp"
+  },
+  {
+    "id": 20,
+    "sourcePage": 38,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182344.jpg",
+    "capturedAt": "2023:06:12 18:23:44",
+    "sourceImage": "./books/advanced-holdem/pages/021.webp"
+  },
+  {
+    "id": 21,
+    "sourcePage": 39,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182347.jpg",
+    "capturedAt": "2023:06:12 18:23:46",
+    "sourceImage": "./books/advanced-holdem/pages/022.webp"
+  },
+  {
+    "id": 22,
+    "sourcePage": 40,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182358.jpg",
+    "capturedAt": "2023:06:12 18:23:58",
+    "sourceImage": "./books/advanced-holdem/pages/023.webp"
+  },
+  {
+    "id": 23,
+    "sourcePage": 41,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182401.jpg",
+    "capturedAt": "2023:06:12 18:24:01",
+    "sourceImage": "./books/advanced-holdem/pages/024.webp"
+  },
+  {
+    "id": 24,
+    "sourcePage": 42,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182405.jpg",
+    "capturedAt": "2023:06:12 18:24:05",
+    "sourceImage": "./books/advanced-holdem/pages/025.webp"
+  },
+  {
+    "id": 25,
+    "sourcePage": 43,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182409.jpg",
+    "capturedAt": "2023:06:12 18:24:09",
+    "sourceImage": "./books/advanced-holdem/pages/026.webp"
+  },
+  {
+    "id": 26,
+    "sourcePage": 44,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182426.jpg",
+    "capturedAt": "2023:06:12 18:24:26",
+    "sourceImage": "./books/advanced-holdem/pages/027.webp"
+  },
+  {
+    "id": 27,
+    "sourcePage": 45,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182429.jpg",
+    "capturedAt": "2023:06:12 18:24:29",
+    "sourceImage": "./books/advanced-holdem/pages/028.webp"
+  },
+  {
+    "id": 28,
+    "sourcePage": 46,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182443.jpg",
+    "capturedAt": "2023:06:12 18:24:43",
+    "sourceImage": "./books/advanced-holdem/pages/029.webp"
+  },
+  {
+    "id": 29,
+    "sourcePage": 47,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182447.jpg",
+    "capturedAt": "2023:06:12 18:24:47",
+    "sourceImage": "./books/advanced-holdem/pages/030.webp"
+  },
+  {
+    "id": 30,
+    "sourcePage": 48,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182458.jpg",
+    "capturedAt": "2023:06:12 18:24:58",
+    "sourceImage": "./books/advanced-holdem/pages/031.webp"
+  },
+  {
+    "id": 31,
+    "sourcePage": 49,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182501.jpg",
+    "capturedAt": "2023:06:12 18:25:01",
+    "sourceImage": "./books/advanced-holdem/pages/032.webp"
+  },
+  {
+    "id": 32,
+    "sourcePage": 50,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182507.jpg",
+    "capturedAt": "2023:06:12 18:25:07",
+    "sourceImage": "./books/advanced-holdem/pages/033.webp"
+  },
+  {
+    "id": 33,
+    "sourcePage": 51,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182509.jpg",
+    "capturedAt": "2023:06:12 18:25:09",
+    "sourceImage": "./books/advanced-holdem/pages/034.webp"
+  },
+  {
+    "id": 34,
+    "sourcePage": 52,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182526.jpg",
+    "capturedAt": "2023:06:12 18:25:26",
+    "sourceImage": "./books/advanced-holdem/pages/035.webp"
+  },
+  {
+    "id": 35,
+    "sourcePage": 53,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182529.jpg",
+    "capturedAt": "2023:06:12 18:25:29",
+    "sourceImage": "./books/advanced-holdem/pages/036.webp"
+  },
+  {
+    "id": 36,
+    "sourcePage": 54,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182544.jpg",
+    "capturedAt": "2023:06:12 18:25:44",
+    "sourceImage": "./books/advanced-holdem/pages/037.webp"
+  },
+  {
+    "id": 37,
+    "sourcePage": 55,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182547.jpg",
+    "capturedAt": "2023:06:12 18:25:47",
+    "sourceImage": "./books/advanced-holdem/pages/038.webp"
+  },
+  {
+    "id": 38,
+    "sourcePage": 56,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182601.jpg",
+    "capturedAt": "2023:06:12 18:26:00",
+    "sourceImage": "./books/advanced-holdem/pages/039.webp"
+  },
+  {
+    "id": 39,
+    "sourcePage": 57,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182603.jpg",
+    "capturedAt": "2023:06:12 18:26:03",
+    "sourceImage": "./books/advanced-holdem/pages/040.webp"
+  },
+  {
+    "id": 40,
+    "sourcePage": 58,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182608.jpg",
+    "capturedAt": "2023:06:12 18:26:08",
+    "sourceImage": "./books/advanced-holdem/pages/041.webp"
+  },
+  {
+    "id": 41,
+    "sourcePage": 59,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182611.jpg",
+    "capturedAt": "2023:06:12 18:26:11",
+    "sourceImage": "./books/advanced-holdem/pages/042.webp"
+  },
+  {
+    "id": 42,
+    "sourcePage": 60,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182620.jpg",
+    "capturedAt": "2023:06:12 18:26:20",
+    "sourceImage": "./books/advanced-holdem/pages/043.webp"
+  },
+  {
+    "id": 43,
+    "sourcePage": 61,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182624.jpg",
+    "capturedAt": "2023:06:12 18:26:24",
+    "sourceImage": "./books/advanced-holdem/pages/044.webp"
+  },
+  {
+    "id": 44,
+    "sourcePage": 62,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182630.jpg",
+    "capturedAt": "2023:06:12 18:26:30",
+    "sourceImage": "./books/advanced-holdem/pages/045.webp"
+  },
+  {
+    "id": 45,
+    "sourcePage": 63,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182634.jpg",
+    "capturedAt": "2023:06:12 18:26:34",
+    "sourceImage": "./books/advanced-holdem/pages/046.webp"
+  },
+  {
+    "id": 46,
+    "sourcePage": 64,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182641.jpg",
+    "capturedAt": "2023:06:12 18:26:41",
+    "sourceImage": "./books/advanced-holdem/pages/047.webp"
+  },
+  {
+    "id": 47,
+    "sourcePage": 65,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182646.jpg",
+    "capturedAt": "2023:06:12 18:26:46",
+    "sourceImage": "./books/advanced-holdem/pages/048.webp"
+  },
+  {
+    "id": 48,
+    "sourcePage": 66,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182652.jpg",
+    "capturedAt": "2023:06:12 18:26:52",
+    "sourceImage": "./books/advanced-holdem/pages/049.webp"
+  },
+  {
+    "id": 49,
+    "sourcePage": 67,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182655.jpg",
+    "capturedAt": "2023:06:12 18:26:55",
+    "sourceImage": "./books/advanced-holdem/pages/050.webp"
+  },
+  {
+    "id": 50,
+    "sourcePage": 68,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182703.jpg",
+    "capturedAt": "2023:06:12 18:27:03",
+    "sourceImage": "./books/advanced-holdem/pages/051.webp"
+  },
+  {
+    "id": 51,
+    "sourcePage": 69,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182706.jpg",
+    "capturedAt": "2023:06:12 18:27:06",
+    "sourceImage": "./books/advanced-holdem/pages/052.webp"
+  },
+  {
+    "id": 52,
+    "sourcePage": 70,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182711.jpg",
+    "capturedAt": "2023:06:12 18:27:11",
+    "sourceImage": "./books/advanced-holdem/pages/053.webp"
+  },
+  {
+    "id": 53,
+    "sourcePage": 71,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182718.jpg",
+    "capturedAt": "2023:06:12 18:27:18",
+    "sourceImage": "./books/advanced-holdem/pages/054.webp"
+  },
+  {
+    "id": 54,
+    "sourcePage": 72,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_182727.jpg",
+    "capturedAt": "2023:06:12 18:27:27",
+    "sourceImage": "./books/advanced-holdem/pages/055.webp"
+  },
+  {
+    "id": 55,
+    "sourcePage": 73,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182730.jpg",
+    "capturedAt": "2023:06:12 18:27:30",
+    "sourceImage": "./books/advanced-holdem/pages/056.webp"
+  },
+  {
+    "id": 56,
+    "sourcePage": 74,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182736.jpg",
+    "capturedAt": "2023:06:12 18:27:36",
+    "sourceImage": "./books/advanced-holdem/pages/057.webp"
+  },
+  {
+    "id": 57,
+    "sourcePage": 75,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182739.jpg",
+    "capturedAt": "2023:06:12 18:27:39",
+    "sourceImage": "./books/advanced-holdem/pages/058.webp"
+  },
+  {
+    "id": 58,
+    "sourcePage": 76,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182747.jpg",
+    "capturedAt": "2023:06:12 18:27:47",
+    "sourceImage": "./books/advanced-holdem/pages/059.webp"
+  },
+  {
+    "id": 59,
+    "sourcePage": 77,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182752.jpg",
+    "capturedAt": "2023:06:12 18:27:51",
+    "sourceImage": "./books/advanced-holdem/pages/060.webp"
+  },
+  {
+    "id": 60,
+    "sourcePage": 78,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182759.jpg",
+    "capturedAt": "2023:06:12 18:27:59",
+    "sourceImage": "./books/advanced-holdem/pages/061.webp"
+  },
+  {
+    "id": 61,
+    "sourcePage": 79,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182802.jpg",
+    "capturedAt": "2023:06:12 18:28:02",
+    "sourceImage": "./books/advanced-holdem/pages/062.webp"
+  },
+  {
+    "id": 62,
+    "sourcePage": 80,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182810.jpg",
+    "capturedAt": "2023:06:12 18:28:09",
+    "sourceImage": "./books/advanced-holdem/pages/063.webp"
+  },
+  {
+    "id": 63,
+    "sourcePage": 81,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182812.jpg",
+    "capturedAt": "2023:06:12 18:28:12",
+    "sourceImage": "./books/advanced-holdem/pages/064.webp"
+  },
+  {
+    "id": 64,
+    "sourcePage": 82,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182818.jpg",
+    "capturedAt": "2023:06:12 18:28:17",
+    "sourceImage": "./books/advanced-holdem/pages/065.webp"
+  },
+  {
+    "id": 65,
+    "sourcePage": 83,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182820.jpg",
+    "capturedAt": "2023:06:12 18:28:20",
+    "sourceImage": "./books/advanced-holdem/pages/066.webp"
+  },
+  {
+    "id": 66,
+    "sourcePage": 84,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182826.jpg",
+    "capturedAt": "2023:06:12 18:28:26",
+    "sourceImage": "./books/advanced-holdem/pages/067.webp"
+  },
+  {
+    "id": 67,
+    "sourcePage": 85,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182829.jpg",
+    "capturedAt": "2023:06:12 18:28:29",
+    "sourceImage": "./books/advanced-holdem/pages/068.webp"
+  },
+  {
+    "id": 68,
+    "sourcePage": 86,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182835.jpg",
+    "capturedAt": "2023:06:12 18:28:35",
+    "sourceImage": "./books/advanced-holdem/pages/069.webp"
+  },
+  {
+    "id": 69,
+    "sourcePage": 87,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182839.jpg",
+    "capturedAt": "2023:06:12 18:28:38",
+    "sourceImage": "./books/advanced-holdem/pages/070.webp"
+  },
+  {
+    "id": 70,
+    "sourcePage": 88,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182843.jpg",
+    "capturedAt": "2023:06:12 18:28:43",
+    "sourceImage": "./books/advanced-holdem/pages/071.webp"
+  },
+  {
+    "id": 71,
+    "sourcePage": 89,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182846.jpg",
+    "capturedAt": "2023:06:12 18:28:45",
+    "sourceImage": "./books/advanced-holdem/pages/072.webp"
+  },
+  {
+    "id": 72,
+    "sourcePage": 90,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182851.jpg",
+    "capturedAt": "2023:06:12 18:28:51",
+    "sourceImage": "./books/advanced-holdem/pages/073.webp"
+  },
+  {
+    "id": 73,
+    "sourcePage": 91,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182854.jpg",
+    "capturedAt": "2023:06:12 18:28:54",
+    "sourceImage": "./books/advanced-holdem/pages/074.webp"
+  },
+  {
+    "id": 74,
+    "sourcePage": 92,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182858.jpg",
+    "capturedAt": "2023:06:12 18:28:57",
+    "sourceImage": "./books/advanced-holdem/pages/075.webp"
+  },
+  {
+    "id": 75,
+    "sourcePage": 93,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182900.jpg",
+    "capturedAt": "2023:06:12 18:29:00",
+    "sourceImage": "./books/advanced-holdem/pages/076.webp"
+  },
+  {
+    "id": 76,
+    "sourcePage": 94,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182905.jpg",
+    "capturedAt": "2023:06:12 18:29:04",
+    "sourceImage": "./books/advanced-holdem/pages/077.webp"
+  },
+  {
+    "id": 77,
+    "sourcePage": 95,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182907.jpg",
+    "capturedAt": "2023:06:12 18:29:07",
+    "sourceImage": "./books/advanced-holdem/pages/078.webp"
+  },
+  {
+    "id": 78,
+    "sourcePage": 96,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182912.jpg",
+    "capturedAt": "2023:06:12 18:29:12",
+    "sourceImage": "./books/advanced-holdem/pages/079.webp"
+  },
+  {
+    "id": 79,
+    "sourcePage": 97,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182913.jpg",
+    "capturedAt": "2023:06:12 18:29:13",
+    "sourceImage": "./books/advanced-holdem/pages/080.webp"
+  },
+  {
+    "id": 80,
+    "sourcePage": 98,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182916.jpg",
+    "capturedAt": "2023:06:12 18:29:16",
+    "sourceImage": "./books/advanced-holdem/pages/081.webp"
+  },
+  {
+    "id": 81,
+    "sourcePage": 99,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182918.jpg",
+    "capturedAt": "2023:06:12 18:29:18",
+    "sourceImage": "./books/advanced-holdem/pages/082.webp"
+  },
+  {
+    "id": 82,
+    "sourcePage": 100,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182922.jpg",
+    "capturedAt": "2023:06:12 18:29:21",
+    "sourceImage": "./books/advanced-holdem/pages/083.webp"
+  },
+  {
+    "id": 83,
+    "sourcePage": 101,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182924.jpg",
+    "capturedAt": "2023:06:12 18:29:24",
+    "sourceImage": "./books/advanced-holdem/pages/084.webp"
+  },
+  {
+    "id": 84,
+    "sourcePage": 102,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182928.jpg",
+    "capturedAt": "2023:06:12 18:29:28",
+    "sourceImage": "./books/advanced-holdem/pages/085.webp"
+  },
+  {
+    "id": 85,
+    "sourcePage": 103,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182930.jpg",
+    "capturedAt": "2023:06:12 18:29:30",
+    "sourceImage": "./books/advanced-holdem/pages/086.webp"
+  },
+  {
+    "id": 86,
+    "sourcePage": 104,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182934.jpg",
+    "capturedAt": "2023:06:12 18:29:34",
+    "sourceImage": "./books/advanced-holdem/pages/087.webp"
+  },
+  {
+    "id": 87,
+    "sourcePage": 105,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182936.jpg",
+    "capturedAt": "2023:06:12 18:29:36",
+    "sourceImage": "./books/advanced-holdem/pages/088.webp"
+  },
+  {
+    "id": 88,
+    "sourcePage": 106,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182940.jpg",
+    "capturedAt": "2023:06:12 18:29:40",
+    "sourceImage": "./books/advanced-holdem/pages/089.webp"
+  },
+  {
+    "id": 89,
+    "sourcePage": 107,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182942.jpg",
+    "capturedAt": "2023:06:12 18:29:42",
+    "sourceImage": "./books/advanced-holdem/pages/090.webp"
+  },
+  {
+    "id": 90,
+    "sourcePage": 108,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182947.jpg",
+    "capturedAt": "2023:06:12 18:29:47",
+    "sourceImage": "./books/advanced-holdem/pages/091.webp"
+  },
+  {
+    "id": 91,
+    "sourcePage": 109,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182949.jpg",
+    "capturedAt": "2023:06:12 18:29:49",
+    "sourceImage": "./books/advanced-holdem/pages/092.webp"
+  },
+  {
+    "id": 92,
+    "sourcePage": 110,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182953.jpg",
+    "capturedAt": "2023:06:12 18:29:53",
+    "sourceImage": "./books/advanced-holdem/pages/093.webp"
+  },
+  {
+    "id": 93,
+    "sourcePage": 111,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182955.jpg",
+    "capturedAt": "2023:06:12 18:29:55",
+    "sourceImage": "./books/advanced-holdem/pages/094.webp"
+  },
+  {
+    "id": 94,
+    "sourcePage": 112,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_182959.jpg",
+    "capturedAt": "2023:06:12 18:29:59",
+    "sourceImage": "./books/advanced-holdem/pages/095.webp"
+  },
+  {
+    "id": 95,
+    "sourcePage": 113,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183001.jpg",
+    "capturedAt": "2023:06:12 18:30:00",
+    "sourceImage": "./books/advanced-holdem/pages/096.webp"
+  },
+  {
+    "id": 96,
+    "sourcePage": 114,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183004.jpg",
+    "capturedAt": "2023:06:12 18:30:04",
+    "sourceImage": "./books/advanced-holdem/pages/097.webp"
+  },
+  {
+    "id": 97,
+    "sourcePage": 115,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183006.jpg",
+    "capturedAt": "2023:06:12 18:30:06",
+    "sourceImage": "./books/advanced-holdem/pages/098.webp"
+  },
+  {
+    "id": 98,
+    "sourcePage": 116,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183009.jpg",
+    "capturedAt": "2023:06:12 18:30:09",
+    "sourceImage": "./books/advanced-holdem/pages/099.webp"
+  },
+  {
+    "id": 99,
+    "sourcePage": 117,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183011.jpg",
+    "capturedAt": "2023:06:12 18:30:11",
+    "sourceImage": "./books/advanced-holdem/pages/100.webp"
+  },
+  {
+    "id": 100,
+    "sourcePage": 118,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183016.jpg",
+    "capturedAt": "2023:06:12 18:30:16",
+    "sourceImage": "./books/advanced-holdem/pages/101.webp"
+  },
+  {
+    "id": 101,
+    "sourcePage": 119,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183018.jpg",
+    "capturedAt": "2023:06:12 18:30:18",
+    "sourceImage": "./books/advanced-holdem/pages/102.webp"
+  },
+  {
+    "id": 102,
+    "sourcePage": 120,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183023.jpg",
+    "capturedAt": "2023:06:12 18:30:23",
+    "sourceImage": "./books/advanced-holdem/pages/103.webp"
+  },
+  {
+    "id": 103,
+    "sourcePage": 121,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183027.jpg",
+    "capturedAt": "2023:06:12 18:30:27",
+    "sourceImage": "./books/advanced-holdem/pages/104.webp"
+  },
+  {
+    "id": 104,
+    "sourcePage": 122,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183035.jpg",
+    "capturedAt": "2023:06:12 18:30:34",
+    "sourceImage": "./books/advanced-holdem/pages/105.webp"
+  },
+  {
+    "id": 105,
+    "sourcePage": 123,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183037.jpg",
+    "capturedAt": "2023:06:12 18:30:37",
+    "sourceImage": "./books/advanced-holdem/pages/106.webp"
+  },
+  {
+    "id": 106,
+    "sourcePage": 124,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183045.jpg",
+    "capturedAt": "2023:06:12 18:30:45",
+    "sourceImage": "./books/advanced-holdem/pages/107.webp"
+  },
+  {
+    "id": 107,
+    "sourcePage": 125,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183047.jpg",
+    "capturedAt": "2023:06:12 18:30:47",
+    "sourceImage": "./books/advanced-holdem/pages/108.webp"
+  },
+  {
+    "id": 108,
+    "sourcePage": 126,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183053.jpg",
+    "capturedAt": "2023:06:12 18:30:52",
+    "sourceImage": "./books/advanced-holdem/pages/109.webp"
+  },
+  {
+    "id": 109,
+    "sourcePage": 127,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183055.jpg",
+    "capturedAt": "2023:06:12 18:30:55",
+    "sourceImage": "./books/advanced-holdem/pages/110.webp"
+  },
+  {
+    "id": 110,
+    "sourcePage": 128,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183100.jpg",
+    "capturedAt": "2023:06:12 18:31:00",
+    "sourceImage": "./books/advanced-holdem/pages/111.webp"
+  },
+  {
+    "id": 111,
+    "sourcePage": 129,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183103.jpg",
+    "capturedAt": "2023:06:12 18:31:02",
+    "sourceImage": "./books/advanced-holdem/pages/112.webp"
+  },
+  {
+    "id": 112,
+    "sourcePage": 130,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183107.jpg",
+    "capturedAt": "2023:06:12 18:31:07",
+    "sourceImage": "./books/advanced-holdem/pages/113.webp"
+  },
+  {
+    "id": 113,
+    "sourcePage": 131,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183110.jpg",
+    "capturedAt": "2023:06:12 18:31:09",
+    "sourceImage": "./books/advanced-holdem/pages/114.webp"
+  },
+  {
+    "id": 114,
+    "sourcePage": 132,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183114.jpg",
+    "capturedAt": "2023:06:12 18:31:14",
+    "sourceImage": "./books/advanced-holdem/pages/115.webp"
+  },
+  {
+    "id": 115,
+    "sourcePage": 133,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183118.jpg",
+    "capturedAt": "2023:06:12 18:31:18",
+    "sourceImage": "./books/advanced-holdem/pages/116.webp"
+  },
+  {
+    "id": 116,
+    "sourcePage": 134,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183145.jpg",
+    "capturedAt": "2023:06:12 18:31:45",
+    "sourceImage": "./books/advanced-holdem/pages/117.webp"
+  },
+  {
+    "id": 117,
+    "sourcePage": 135,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183148.jpg",
+    "capturedAt": "2023:06:12 18:31:48",
+    "sourceImage": "./books/advanced-holdem/pages/118.webp"
+  },
+  {
+    "id": 118,
+    "sourcePage": 136,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183154.jpg",
+    "capturedAt": "2023:06:12 18:31:54",
+    "sourceImage": "./books/advanced-holdem/pages/119.webp"
+  },
+  {
+    "id": 119,
+    "sourcePage": 137,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183156.jpg",
+    "capturedAt": "2023:06:12 18:31:56",
+    "sourceImage": "./books/advanced-holdem/pages/120.webp"
+  },
+  {
+    "id": 120,
+    "sourcePage": 138,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183202.jpg",
+    "capturedAt": "2023:06:12 18:32:01",
+    "sourceImage": "./books/advanced-holdem/pages/121.webp"
+  },
+  {
+    "id": 121,
+    "sourcePage": 139,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183207.jpg",
+    "capturedAt": "2023:06:12 18:32:07",
+    "sourceImage": "./books/advanced-holdem/pages/122.webp"
+  },
+  {
+    "id": 122,
+    "sourcePage": 140,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183212.jpg",
+    "capturedAt": "2023:06:12 18:32:11",
+    "sourceImage": "./books/advanced-holdem/pages/123.webp"
+  },
+  {
+    "id": 123,
+    "sourcePage": 141,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183215.jpg",
+    "capturedAt": "2023:06:12 18:32:15",
+    "sourceImage": "./books/advanced-holdem/pages/124.webp"
+  },
+  {
+    "id": 124,
+    "sourcePage": 142,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183219.jpg",
+    "capturedAt": "2023:06:12 18:32:19",
+    "sourceImage": "./books/advanced-holdem/pages/125.webp"
+  },
+  {
+    "id": 125,
+    "sourcePage": 143,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183223.jpg",
+    "capturedAt": "2023:06:12 18:32:22",
+    "sourceImage": "./books/advanced-holdem/pages/126.webp"
+  },
+  {
+    "id": 126,
+    "sourcePage": 144,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183229.jpg",
+    "capturedAt": "2023:06:12 18:32:29",
+    "sourceImage": "./books/advanced-holdem/pages/127.webp"
+  },
+  {
+    "id": 127,
+    "sourcePage": 145,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183233.jpg",
+    "capturedAt": "2023:06:12 18:32:32",
+    "sourceImage": "./books/advanced-holdem/pages/128.webp"
+  },
+  {
+    "id": 128,
+    "sourcePage": 146,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183237.jpg",
+    "capturedAt": "2023:06:12 18:32:37",
+    "sourceImage": "./books/advanced-holdem/pages/129.webp"
+  },
+  {
+    "id": 129,
+    "sourcePage": 147,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183241.jpg",
+    "capturedAt": "2023:06:12 18:32:41",
+    "sourceImage": "./books/advanced-holdem/pages/130.webp"
+  },
+  {
+    "id": 130,
+    "sourcePage": 148,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183245.jpg",
+    "capturedAt": "2023:06:12 18:32:45",
+    "sourceImage": "./books/advanced-holdem/pages/131.webp"
+  },
+  {
+    "id": 131,
+    "sourcePage": 149,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183248.jpg",
+    "capturedAt": "2023:06:12 18:32:48",
+    "sourceImage": "./books/advanced-holdem/pages/132.webp"
+  },
+  {
+    "id": 132,
+    "sourcePage": 150,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183252.jpg",
+    "capturedAt": "2023:06:12 18:32:52",
+    "sourceImage": "./books/advanced-holdem/pages/133.webp"
+  },
+  {
+    "id": 133,
+    "sourcePage": 151,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183255.jpg",
+    "capturedAt": "2023:06:12 18:32:55",
+    "sourceImage": "./books/advanced-holdem/pages/134.webp"
+  },
+  {
+    "id": 134,
+    "sourcePage": 152,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183305.jpg",
+    "capturedAt": "2023:06:12 18:33:04",
+    "sourceImage": "./books/advanced-holdem/pages/135.webp"
+  },
+  {
+    "id": 135,
+    "sourcePage": 153,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183308.jpg",
+    "capturedAt": "2023:06:12 18:33:08",
+    "sourceImage": "./books/advanced-holdem/pages/136.webp"
+  },
+  {
+    "id": 136,
+    "sourcePage": 154,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183312.jpg",
+    "capturedAt": "2023:06:12 18:33:12",
+    "sourceImage": "./books/advanced-holdem/pages/137.webp"
+  },
+  {
+    "id": 137,
+    "sourcePage": 155,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183315.jpg",
+    "capturedAt": "2023:06:12 18:33:15",
+    "sourceImage": "./books/advanced-holdem/pages/138.webp"
+  },
+  {
+    "id": 138,
+    "sourcePage": 156,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183320.jpg",
+    "capturedAt": "2023:06:12 18:33:20",
+    "sourceImage": "./books/advanced-holdem/pages/139.webp"
+  },
+  {
+    "id": 139,
+    "sourcePage": 157,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183326.jpg",
+    "capturedAt": "2023:06:12 18:33:26",
+    "sourceImage": "./books/advanced-holdem/pages/140.webp"
+  },
+  {
+    "id": 140,
+    "sourcePage": 158,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183330.jpg",
+    "capturedAt": "2023:06:12 18:33:30",
+    "sourceImage": "./books/advanced-holdem/pages/141.webp"
+  },
+  {
+    "id": 141,
+    "sourcePage": 159,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183332.jpg",
+    "capturedAt": "2023:06:12 18:33:32",
+    "sourceImage": "./books/advanced-holdem/pages/142.webp"
+  },
+  {
+    "id": 142,
+    "sourcePage": 160,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183337.jpg",
+    "capturedAt": "2023:06:12 18:33:37",
+    "sourceImage": "./books/advanced-holdem/pages/143.webp"
+  },
+  {
+    "id": 143,
+    "sourcePage": 161,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183340.jpg",
+    "capturedAt": "2023:06:12 18:33:39",
+    "sourceImage": "./books/advanced-holdem/pages/144.webp"
+  },
+  {
+    "id": 144,
+    "sourcePage": 162,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183344.jpg",
+    "capturedAt": "2023:06:12 18:33:43",
+    "sourceImage": "./books/advanced-holdem/pages/145.webp"
+  },
+  {
+    "id": 145,
+    "sourcePage": 163,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183346.jpg",
+    "capturedAt": "2023:06:12 18:33:46",
+    "sourceImage": "./books/advanced-holdem/pages/146.webp"
+  },
+  {
+    "id": 146,
+    "sourcePage": 164,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183351.jpg",
+    "capturedAt": "2023:06:12 18:33:51",
+    "sourceImage": "./books/advanced-holdem/pages/147.webp"
+  },
+  {
+    "id": 147,
+    "sourcePage": 165,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183354.jpg",
+    "capturedAt": "2023:06:12 18:33:54",
+    "sourceImage": "./books/advanced-holdem/pages/148.webp"
+  },
+  {
+    "id": 148,
+    "sourcePage": 166,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183359.jpg",
+    "capturedAt": "2023:06:12 18:33:59",
+    "sourceImage": "./books/advanced-holdem/pages/149.webp"
+  },
+  {
+    "id": 149,
+    "sourcePage": 167,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183402.jpg",
+    "capturedAt": "2023:06:12 18:34:01",
+    "sourceImage": "./books/advanced-holdem/pages/150.webp"
+  },
+  {
+    "id": 150,
+    "sourcePage": 168,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183407.jpg",
+    "capturedAt": "2023:06:12 18:34:06",
+    "sourceImage": "./books/advanced-holdem/pages/151.webp"
+  },
+  {
+    "id": 151,
+    "sourcePage": 169,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183413.jpg",
+    "capturedAt": "2023:06:12 18:34:13",
+    "sourceImage": "./books/advanced-holdem/pages/152.webp"
+  },
+  {
+    "id": 152,
+    "sourcePage": 170,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183419.jpg",
+    "capturedAt": "2023:06:12 18:34:19",
+    "sourceImage": "./books/advanced-holdem/pages/153.webp"
+  },
+  {
+    "id": 153,
+    "sourcePage": 171,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183423.jpg",
+    "capturedAt": "2023:06:12 18:34:23",
+    "sourceImage": "./books/advanced-holdem/pages/154.webp"
+  },
+  {
+    "id": 154,
+    "sourcePage": 172,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183429.jpg",
+    "capturedAt": "2023:06:12 18:34:29",
+    "sourceImage": "./books/advanced-holdem/pages/155.webp"
+  },
+  {
+    "id": 155,
+    "sourcePage": 173,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183432.jpg",
+    "capturedAt": "2023:06:12 18:34:32",
+    "sourceImage": "./books/advanced-holdem/pages/156.webp"
+  },
+  {
+    "id": 156,
+    "sourcePage": 174,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183439.jpg",
+    "capturedAt": "2023:06:12 18:34:38",
+    "sourceImage": "./books/advanced-holdem/pages/157.webp"
+  },
+  {
+    "id": 157,
+    "sourcePage": 175,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183442.jpg",
+    "capturedAt": "2023:06:12 18:34:42",
+    "sourceImage": "./books/advanced-holdem/pages/158.webp"
+  },
+  {
+    "id": 158,
+    "sourcePage": 176,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183445.jpg",
+    "capturedAt": "2023:06:12 18:34:45",
+    "sourceImage": "./books/advanced-holdem/pages/159.webp"
+  },
+  {
+    "id": 159,
+    "sourcePage": 177,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183449.jpg",
+    "capturedAt": "2023:06:12 18:34:49",
+    "sourceImage": "./books/advanced-holdem/pages/160.webp"
+  },
+  {
+    "id": 160,
+    "sourcePage": 178,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183453.jpg",
+    "capturedAt": "2023:06:12 18:34:53",
+    "sourceImage": "./books/advanced-holdem/pages/161.webp"
+  },
+  {
+    "id": 161,
+    "sourcePage": 179,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183456.jpg",
+    "capturedAt": "2023:06:12 18:34:56",
+    "sourceImage": "./books/advanced-holdem/pages/162.webp"
+  },
+  {
+    "id": 162,
+    "sourcePage": 180,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183503.jpg",
+    "capturedAt": "2023:06:12 18:35:03",
+    "sourceImage": "./books/advanced-holdem/pages/163.webp"
+  },
+  {
+    "id": 163,
+    "sourcePage": 181,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183505.jpg",
+    "capturedAt": "2023:06:12 18:35:05",
+    "sourceImage": "./books/advanced-holdem/pages/164.webp"
+  },
+  {
+    "id": 164,
+    "sourcePage": 182,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183512.jpg",
+    "capturedAt": "2023:06:12 18:35:12",
+    "sourceImage": "./books/advanced-holdem/pages/165.webp"
+  },
+  {
+    "id": 165,
+    "sourcePage": 183,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183515.jpg",
+    "capturedAt": "2023:06:12 18:35:15",
+    "sourceImage": "./books/advanced-holdem/pages/166.webp"
+  },
+  {
+    "id": 166,
+    "sourcePage": 184,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_183526.jpg",
+    "capturedAt": "2023:06:12 18:35:26",
+    "sourceImage": "./books/advanced-holdem/pages/167.webp"
+  },
+  {
+    "id": 167,
+    "sourcePage": 185,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183530.jpg",
+    "capturedAt": "2023:06:12 18:35:30",
+    "sourceImage": "./books/advanced-holdem/pages/168.webp"
+  },
+  {
+    "id": 168,
+    "sourcePage": 186,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183543.jpg",
+    "capturedAt": "2023:06:12 18:35:43",
+    "sourceImage": "./books/advanced-holdem/pages/169.webp"
+  },
+  {
+    "id": 169,
+    "sourcePage": 187,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183547.jpg",
+    "capturedAt": "2023:06:12 18:35:47",
+    "sourceImage": "./books/advanced-holdem/pages/170.webp"
+  },
+  {
+    "id": 170,
+    "sourcePage": 188,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183554.jpg",
+    "capturedAt": "2023:06:12 18:35:54",
+    "sourceImage": "./books/advanced-holdem/pages/171.webp"
+  },
+  {
+    "id": 171,
+    "sourcePage": 189,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183558.jpg",
+    "capturedAt": "2023:06:12 18:35:58",
+    "sourceImage": "./books/advanced-holdem/pages/172.webp"
+  },
+  {
+    "id": 172,
+    "sourcePage": 190,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183608.jpg",
+    "capturedAt": "2023:06:12 18:36:08",
+    "sourceImage": "./books/advanced-holdem/pages/173.webp"
+  },
+  {
+    "id": 173,
+    "sourcePage": 191,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183614.jpg",
+    "capturedAt": "2023:06:12 18:36:14",
+    "sourceImage": "./books/advanced-holdem/pages/174.webp"
+  },
+  {
+    "id": 174,
+    "sourcePage": 192,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183620.jpg",
+    "capturedAt": "2023:06:12 18:36:20",
+    "sourceImage": "./books/advanced-holdem/pages/175.webp"
+  },
+  {
+    "id": 175,
+    "sourcePage": 193,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183623.jpg",
+    "capturedAt": "2023:06:12 18:36:23",
+    "sourceImage": "./books/advanced-holdem/pages/176.webp"
+  },
+  {
+    "id": 176,
+    "sourcePage": 194,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183630.jpg",
+    "capturedAt": "2023:06:12 18:36:30",
+    "sourceImage": "./books/advanced-holdem/pages/177.webp"
+  },
+  {
+    "id": 177,
+    "sourcePage": 195,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183641.jpg",
+    "capturedAt": "2023:06:12 18:36:40",
+    "sourceImage": "./books/advanced-holdem/pages/178.webp"
+  },
+  {
+    "id": 178,
+    "sourcePage": 196,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183650.jpg",
+    "capturedAt": "2023:06:12 18:36:49",
+    "sourceImage": "./books/advanced-holdem/pages/179.webp"
+  },
+  {
+    "id": 179,
+    "sourcePage": 197,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183653.jpg",
+    "capturedAt": "2023:06:12 18:36:53",
+    "sourceImage": "./books/advanced-holdem/pages/180.webp"
+  },
+  {
+    "id": 180,
+    "sourcePage": 198,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183659.jpg",
+    "capturedAt": "2023:06:12 18:36:59",
+    "sourceImage": "./books/advanced-holdem/pages/181.webp"
+  },
+  {
+    "id": 181,
+    "sourcePage": 199,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_183703.jpg",
+    "capturedAt": "2023:06:12 18:37:02",
+    "sourceImage": "./books/advanced-holdem/pages/182.webp"
+  },
+  {
+    "id": 182,
+    "sourcePage": 200,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183707.jpg",
+    "capturedAt": "2023:06:12 18:37:07",
+    "sourceImage": "./books/advanced-holdem/pages/183.webp"
+  },
+  {
+    "id": 183,
+    "sourcePage": 201,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183712.jpg",
+    "capturedAt": "2023:06:12 18:37:12",
+    "sourceImage": "./books/advanced-holdem/pages/184.webp"
+  },
+  {
+    "id": 184,
+    "sourcePage": 202,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183718.jpg",
+    "capturedAt": "2023:06:12 18:37:18",
+    "sourceImage": "./books/advanced-holdem/pages/185.webp"
+  },
+  {
+    "id": 185,
+    "sourcePage": 203,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183723.jpg",
+    "capturedAt": "2023:06:12 18:37:22",
+    "sourceImage": "./books/advanced-holdem/pages/186.webp"
+  },
+  {
+    "id": 186,
+    "sourcePage": 204,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183727.jpg",
+    "capturedAt": "2023:06:12 18:37:27",
+    "sourceImage": "./books/advanced-holdem/pages/187.webp"
+  },
+  {
+    "id": 187,
+    "sourcePage": 205,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183732.jpg",
+    "capturedAt": "2023:06:12 18:37:31",
+    "sourceImage": "./books/advanced-holdem/pages/188.webp"
+  },
+  {
+    "id": 188,
+    "sourcePage": 206,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183736.jpg",
+    "capturedAt": "2023:06:12 18:37:36",
+    "sourceImage": "./books/advanced-holdem/pages/189.webp"
+  },
+  {
+    "id": 189,
+    "sourcePage": 207,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183743.jpg",
+    "capturedAt": "2023:06:12 18:37:43",
+    "sourceImage": "./books/advanced-holdem/pages/190.webp"
+  },
+  {
+    "id": 190,
+    "sourcePage": 208,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_183753.jpg",
+    "capturedAt": "2023:06:12 18:37:53",
+    "sourceImage": "./books/advanced-holdem/pages/191.webp"
+  },
+  {
+    "id": 191,
+    "sourcePage": 209,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183755.jpg",
+    "capturedAt": "2023:06:12 18:37:55",
+    "sourceImage": "./books/advanced-holdem/pages/192.webp"
+  },
+  {
+    "id": 192,
+    "sourcePage": 210,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_183801.jpg",
+    "capturedAt": "2023:06:12 18:38:01",
+    "sourceImage": "./books/advanced-holdem/pages/193.webp"
+  },
+  {
+    "id": 193,
+    "sourcePage": 211,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183804.jpg",
+    "capturedAt": "2023:06:12 18:38:04",
+    "sourceImage": "./books/advanced-holdem/pages/194.webp"
+  },
+  {
+    "id": 194,
+    "sourcePage": 212,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183811.jpg",
+    "capturedAt": "2023:06:12 18:38:10",
+    "sourceImage": "./books/advanced-holdem/pages/195.webp"
+  },
+  {
+    "id": 195,
+    "sourcePage": 213,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183814.jpg",
+    "capturedAt": "2023:06:12 18:38:14",
+    "sourceImage": "./books/advanced-holdem/pages/196.webp"
+  },
+  {
+    "id": 196,
+    "sourcePage": 214,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183824.jpg",
+    "capturedAt": "2023:06:12 18:38:24",
+    "sourceImage": "./books/advanced-holdem/pages/197.webp"
+  },
+  {
+    "id": 197,
+    "sourcePage": 215,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183827.jpg",
+    "capturedAt": "2023:06:12 18:38:27",
+    "sourceImage": "./books/advanced-holdem/pages/198.webp"
+  },
+  {
+    "id": 198,
+    "sourcePage": 216,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183837.jpg",
+    "capturedAt": "2023:06:12 18:38:36",
+    "sourceImage": "./books/advanced-holdem/pages/199.webp"
+  },
+  {
+    "id": 199,
+    "sourcePage": 217,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183839.jpg",
+    "capturedAt": "2023:06:12 18:38:39",
+    "sourceImage": "./books/advanced-holdem/pages/200.webp"
+  },
+  {
+    "id": 200,
+    "sourcePage": 218,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183847.jpg",
+    "capturedAt": "2023:06:12 18:38:47",
+    "sourceImage": "./books/advanced-holdem/pages/201.webp"
+  },
+  {
+    "id": 201,
+    "sourcePage": 219,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183856.jpg",
+    "capturedAt": "2023:06:12 18:38:56",
+    "sourceImage": "./books/advanced-holdem/pages/202.webp"
+  },
+  {
+    "id": 202,
+    "sourcePage": 220,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183900.jpg",
+    "capturedAt": "2023:06:12 18:39:00",
+    "sourceImage": "./books/advanced-holdem/pages/203.webp"
+  },
+  {
+    "id": 203,
+    "sourcePage": 221,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183903.jpg",
+    "capturedAt": "2023:06:12 18:39:03",
+    "sourceImage": "./books/advanced-holdem/pages/204.webp"
+  },
+  {
+    "id": 204,
+    "sourcePage": 222,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183908.jpg",
+    "capturedAt": "2023:06:12 18:39:08",
+    "sourceImage": "./books/advanced-holdem/pages/205.webp"
+  },
+  {
+    "id": 205,
+    "sourcePage": 223,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183914.jpg",
+    "capturedAt": "2023:06:12 18:39:14",
+    "sourceImage": "./books/advanced-holdem/pages/206.webp"
+  },
+  {
+    "id": 206,
+    "sourcePage": 224,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183920.jpg",
+    "capturedAt": "2023:06:12 18:39:20",
+    "sourceImage": "./books/advanced-holdem/pages/207.webp"
+  },
+  {
+    "id": 207,
+    "sourcePage": 225,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_183926.jpg",
+    "capturedAt": "2023:06:12 18:39:25",
+    "sourceImage": "./books/advanced-holdem/pages/208.webp"
+  },
+  {
+    "id": 208,
+    "sourcePage": 226,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185224.jpg",
+    "capturedAt": "2023:06:12 18:52:24",
+    "sourceImage": "./books/advanced-holdem/pages/209.webp"
+  },
+  {
+    "id": 209,
+    "sourcePage": 227,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185229.jpg",
+    "capturedAt": "2023:06:12 18:52:29",
+    "sourceImage": "./books/advanced-holdem/pages/210.webp"
+  },
+  {
+    "id": 210,
+    "sourcePage": 228,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185236.jpg",
+    "capturedAt": "2023:06:12 18:52:35",
+    "sourceImage": "./books/advanced-holdem/pages/211.webp"
+  },
+  {
+    "id": 211,
+    "sourcePage": 229,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185239.jpg",
+    "capturedAt": "2023:06:12 18:52:38",
+    "sourceImage": "./books/advanced-holdem/pages/212.webp"
+  },
+  {
+    "id": 212,
+    "sourcePage": 230,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185246.jpg",
+    "capturedAt": "2023:06:12 18:52:46",
+    "sourceImage": "./books/advanced-holdem/pages/213.webp"
+  },
+  {
+    "id": 213,
+    "sourcePage": 231,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185251.jpg",
+    "capturedAt": "2023:06:12 18:52:51",
+    "sourceImage": "./books/advanced-holdem/pages/214.webp"
+  },
+  {
+    "id": 214,
+    "sourcePage": 232,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185257.jpg",
+    "capturedAt": "2023:06:12 18:52:57",
+    "sourceImage": "./books/advanced-holdem/pages/215.webp"
+  },
+  {
+    "id": 215,
+    "sourcePage": 233,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185300.jpg",
+    "capturedAt": "2023:06:12 18:53:00",
+    "sourceImage": "./books/advanced-holdem/pages/216.webp"
+  },
+  {
+    "id": 216,
+    "sourcePage": 234,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185307.jpg",
+    "capturedAt": "2023:06:12 18:53:07",
+    "sourceImage": "./books/advanced-holdem/pages/217.webp"
+  },
+  {
+    "id": 217,
+    "sourcePage": 235,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185316.jpg",
+    "capturedAt": "2023:06:12 18:53:16",
+    "sourceImage": "./books/advanced-holdem/pages/218.webp"
+  },
+  {
+    "id": 218,
+    "sourcePage": 236,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185323.jpg",
+    "capturedAt": "2023:06:12 18:53:22",
+    "sourceImage": "./books/advanced-holdem/pages/219.webp"
+  },
+  {
+    "id": 219,
+    "sourcePage": 237,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185327.jpg",
+    "capturedAt": "2023:06:12 18:53:27",
+    "sourceImage": "./books/advanced-holdem/pages/220.webp"
+  },
+  {
+    "id": 220,
+    "sourcePage": 238,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185333.jpg",
+    "capturedAt": "2023:06:12 18:53:32",
+    "sourceImage": "./books/advanced-holdem/pages/221.webp"
+  },
+  {
+    "id": 221,
+    "sourcePage": 239,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185336.jpg",
+    "capturedAt": "2023:06:12 18:53:36",
+    "sourceImage": "./books/advanced-holdem/pages/222.webp"
+  },
+  {
+    "id": 222,
+    "sourcePage": 240,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185346.jpg",
+    "capturedAt": "2023:06:12 18:53:46",
+    "sourceImage": "./books/advanced-holdem/pages/223.webp"
+  },
+  {
+    "id": 223,
+    "sourcePage": 241,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185349.jpg",
+    "capturedAt": "2023:06:12 18:53:49",
+    "sourceImage": "./books/advanced-holdem/pages/224.webp"
+  },
+  {
+    "id": 224,
+    "sourcePage": 242,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185354.jpg",
+    "capturedAt": "2023:06:12 18:53:54",
+    "sourceImage": "./books/advanced-holdem/pages/225.webp"
+  },
+  {
+    "id": 225,
+    "sourcePage": 243,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185357.jpg",
+    "capturedAt": "2023:06:12 18:53:57",
+    "sourceImage": "./books/advanced-holdem/pages/226.webp"
+  },
+  {
+    "id": 226,
+    "sourcePage": 244,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185403.jpg",
+    "capturedAt": "2023:06:12 18:54:02",
+    "sourceImage": "./books/advanced-holdem/pages/227.webp"
+  },
+  {
+    "id": 227,
+    "sourcePage": 245,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185406.jpg",
+    "capturedAt": "2023:06:12 18:54:06",
+    "sourceImage": "./books/advanced-holdem/pages/228.webp"
+  },
+  {
+    "id": 228,
+    "sourcePage": 246,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185415.jpg",
+    "capturedAt": "2023:06:12 18:54:15",
+    "sourceImage": "./books/advanced-holdem/pages/229.webp"
+  },
+  {
+    "id": 229,
+    "sourcePage": 247,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185422.jpg",
+    "capturedAt": "2023:06:12 18:54:22",
+    "sourceImage": "./books/advanced-holdem/pages/230.webp"
+  },
+  {
+    "id": 230,
+    "sourcePage": 248,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185430.jpg",
+    "capturedAt": "2023:06:12 18:54:30",
+    "sourceImage": "./books/advanced-holdem/pages/231.webp"
+  },
+  {
+    "id": 231,
+    "sourcePage": 249,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185436.jpg",
+    "capturedAt": "2023:06:12 18:54:36",
+    "sourceImage": "./books/advanced-holdem/pages/232.webp"
+  },
+  {
+    "id": 232,
+    "sourcePage": 250,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185441.jpg",
+    "capturedAt": "2023:06:12 18:54:40",
+    "sourceImage": "./books/advanced-holdem/pages/233.webp"
+  },
+  {
+    "id": 233,
+    "sourcePage": 251,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185444.jpg",
+    "capturedAt": "2023:06:12 18:54:44",
+    "sourceImage": "./books/advanced-holdem/pages/234.webp"
+  },
+  {
+    "id": 234,
+    "sourcePage": 252,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185455.jpg",
+    "capturedAt": "2023:06:12 18:54:55",
+    "sourceImage": "./books/advanced-holdem/pages/235.webp"
+  },
+  {
+    "id": 235,
+    "sourcePage": 253,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185458.jpg",
+    "capturedAt": "2023:06:12 18:54:58",
+    "sourceImage": "./books/advanced-holdem/pages/236.webp"
+  },
+  {
+    "id": 236,
+    "sourcePage": 254,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185504.jpg",
+    "capturedAt": "2023:06:12 18:55:03",
+    "sourceImage": "./books/advanced-holdem/pages/237.webp"
+  },
+  {
+    "id": 237,
+    "sourcePage": 255,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185507.jpg",
+    "capturedAt": "2023:06:12 18:55:06",
+    "sourceImage": "./books/advanced-holdem/pages/238.webp"
+  },
+  {
+    "id": 238,
+    "sourcePage": 256,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185514.jpg",
+    "capturedAt": "2023:06:12 18:55:13",
+    "sourceImage": "./books/advanced-holdem/pages/239.webp"
+  },
+  {
+    "id": 239,
+    "sourcePage": 257,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185517.jpg",
+    "capturedAt": "2023:06:12 18:55:17",
+    "sourceImage": "./books/advanced-holdem/pages/240.webp"
+  },
+  {
+    "id": 240,
+    "sourcePage": 258,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185528.jpg",
+    "capturedAt": "2023:06:12 18:55:28",
+    "sourceImage": "./books/advanced-holdem/pages/241.webp"
+  },
+  {
+    "id": 241,
+    "sourcePage": 259,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185533.jpg",
+    "capturedAt": "2023:06:12 18:55:33",
+    "sourceImage": "./books/advanced-holdem/pages/242.webp"
+  },
+  {
+    "id": 242,
+    "sourcePage": 260,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185546.jpg",
+    "capturedAt": "2023:06:12 18:55:45",
+    "sourceImage": "./books/advanced-holdem/pages/243.webp"
+  },
+  {
+    "id": 243,
+    "sourcePage": 261,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185548.jpg",
+    "capturedAt": "2023:06:12 18:55:48",
+    "sourceImage": "./books/advanced-holdem/pages/244.webp"
+  },
+  {
+    "id": 244,
+    "sourcePage": 262,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185554.jpg",
+    "capturedAt": "2023:06:12 18:55:53",
+    "sourceImage": "./books/advanced-holdem/pages/245.webp"
+  },
+  {
+    "id": 245,
+    "sourcePage": 263,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185557.jpg",
+    "capturedAt": "2023:06:12 18:55:57",
+    "sourceImage": "./books/advanced-holdem/pages/246.webp"
+  },
+  {
+    "id": 246,
+    "sourcePage": 264,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185603.jpg",
+    "capturedAt": "2023:06:12 18:56:03",
+    "sourceImage": "./books/advanced-holdem/pages/247.webp"
+  },
+  {
+    "id": 247,
+    "sourcePage": 265,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185606.jpg",
+    "capturedAt": "2023:06:12 18:56:06",
+    "sourceImage": "./books/advanced-holdem/pages/248.webp"
+  },
+  {
+    "id": 248,
+    "sourcePage": 266,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185612.jpg",
+    "capturedAt": "2023:06:12 18:56:11",
+    "sourceImage": "./books/advanced-holdem/pages/249.webp"
+  },
+  {
+    "id": 249,
+    "sourcePage": 267,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185617.jpg",
+    "capturedAt": "2023:06:12 18:56:17",
+    "sourceImage": "./books/advanced-holdem/pages/250.webp"
+  },
+  {
+    "id": 250,
+    "sourcePage": 268,
+    "sourcePageBasis": "visible folio",
+    "sourceFilename": "20230612_185623.jpg",
+    "capturedAt": "2023:06:12 18:56:23",
+    "sourceImage": "./books/advanced-holdem/pages/251.webp"
+  },
+  {
+    "id": 251,
+    "sourcePage": 269,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185631.jpg",
+    "capturedAt": "2023:06:12 18:56:30",
+    "sourceImage": "./books/advanced-holdem/pages/252.webp"
+  },
+  {
+    "id": 252,
+    "sourcePage": 270,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185635.jpg",
+    "capturedAt": "2023:06:12 18:56:35",
+    "sourceImage": "./books/advanced-holdem/pages/253.webp"
+  },
+  {
+    "id": 253,
+    "sourcePage": 271,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185638.jpg",
+    "capturedAt": "2023:06:12 18:56:38",
+    "sourceImage": "./books/advanced-holdem/pages/254.webp"
+  },
+  {
+    "id": 254,
+    "sourcePage": 272,
+    "sourcePageBasis": "capture sequence, checked against surrounding folios",
+    "sourceFilename": "20230612_185641.jpg",
+    "capturedAt": "2023:06:12 18:56:41",
+    "sourceImage": "./books/advanced-holdem/pages/255.webp"
+  }
+]

@@ -5,7 +5,8 @@ const icons = {
   moon:'<path d="M20.5 13.1A8.5 8.5 0 0 1 10.9 3.5a8.5 8.5 0 1 0 9.6 9.6Z"/>',
   sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>',
   toc:'<path d="M8 6h13M8 12h13M8 18h13M3 6h1M3 12h1M3 18h1"/>',
-  bookmark:'<path d="M6 3h12v18l-6-4-6 4z"/>'
+  bookmark:'<path d="M6 3h12v18l-6-4-6 4z"/>',
+  source:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/>'
 };
 const icon = name => `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg>`;
 const escapeHTML = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -20,6 +21,7 @@ settings.fontSize=Math.min(32,Math.max(16,Number(settings.fontSize)||21));
 let progress=readStore('sai.progress',{}), bookmarks=readStore('sai.bookmarks',[]);
 let catalog=[], book=null, chapter=null, chapterIndex=0, page=0, pageCount=1, columnStep=0;
 let filter='all', tocTab='contents', openToken=0, searchToken=0, saveTimer, toastTimer, resizeTimer, searchTimer;
+let sourceIndex=0, sourceToken=0;
 const cache = new Map(), searchCache = new Map();
 function toast(message){clearTimeout(toastTimer);$('#toast').textContent=message;$('#toast').hidden=false;toastTimer=setTimeout(()=>$('#toast').hidden=true,3200)}
 function applySettings(){
@@ -37,7 +39,9 @@ function applySettings(){
 }
 applySettings();
 $('#toc-open').innerHTML=icon('toc');$('#bookmark-toggle').innerHTML=icon('bookmark');
+$('#source-open').innerHTML=icon('source');
 function coverHTML(b){
+  if(b.id==='advanced-holdem')return `<div class="cover shark"><small>A modern approach to poker analysis</small><strong>Advanced<br>Concepts in<br>No-Limit Hold’em</strong><svg class="cover-art" viewBox="0 0 140 100" aria-hidden="true"><path d="M8 70c28-2 42-17 61-29L63 13l26 21c18-1 29 8 41 18l-20 10 13 15-28-7C66 87 32 85 8 70Z"/><path d="m34 68 19-9 4 10m28-23 3 9m5-10 3 9M14 88h108"/><circle cx="107" cy="49" r="1.5"/></svg><span class="cover-author">Hunter Cichy</span></div>`;
   return b.id==='sherlock-holmes'?`<div class="cover"><small>The complete collection</small><strong>Sherlock<br>Holmes</strong><svg class="cover-art" viewBox="0 0 120 120" aria-hidden="true"><circle cx="51" cy="48" r="30"/><circle cx="51" cy="48" r="25"/><path d="m73 71 31 32-7 7-31-32M25 67V45l9-7 10 7v30m0-2V31l8-7 9 7v43m0-1V44l8-7 10 7v23M31 50h6m-6 9h6m12-22h7m-7 10h7m-7 11h7m10-8h7m-7 10h7M17 79h62M12 85h73"/><path d="M27 20 23 13m59 18 9-4M51 8V2"/></svg><span class="cover-author">Arthur Conan Doyle</span></div>`:`<div class="cover solo"><small>Chapter 201–270</small><strong>Solo<br>Leveling</strong><svg class="cover-art" viewBox="0 0 120 130" aria-hidden="true"><path d="m20 112 4-70 36-27 36 27 4 70M30 110l3-63 27-21 27 21 3 63M40 110V52l20-16 20 16v58M47 109V57l13-10 13 10v52"/><path d="m55 98 5-42 5 42-5 16zM59 91l-11 9m13-9 11 9M14 115h92M8 121h104M13 38l-4-6m98 6 4-6M60 9V1"/><circle cx="60" cy="65" r="2"/></svg><span class="cover-author">Chugong</span></div>`;
 }
 function completion(b,p=progress[b.id]){if(!p)return 0;const total=b.words;const before=b.chapters.slice(0,p.chapter).reduce((n,c)=>n+c.words,0);return Math.min(100,Math.round(100*(before+(b.chapters[p.chapter]?.words||0)*(p.ratio||0))/total))}
@@ -61,7 +65,8 @@ async function fetchChapter(b,index){const key=`${b.id}/${index}`;if(!cache.has(
 function currentRatio(){if(settings.mode==='pages')return pageCount<=1?0:page/(pageCount-1);const max=document.documentElement.scrollHeight-innerHeight;return max>0?Math.min(1,scrollY/max):0}
 function storePosition(){if(!book||!chapter)return;progress[book.id]={chapter:chapterIndex,page,ratio:currentRatio(),mode:settings.mode,updated:Date.now()};writeStore('sai.progress',progress)}
 function updateFooter(){if(!book||!chapter)return;
-  $('#chapter-label').textContent=`${chapterIndex+1} / ${book.chapters.length}`;
+  $('#chapter-label').textContent=book.unit==='page'?`원문 ${chapter.sourcePage}쪽`:`${chapterIndex+1} / ${book.chapters.length}`;
+  $('#prev-chapter span').textContent=book.unit==='page'?'이전 쪽':'이전 장';$('#next-chapter span').textContent=book.unit==='page'?'다음 쪽':'다음 장';
   $('#page-label').textContent=`${page+1} / ${pageCount}`;
   $('#prev-chapter').disabled=chapterIndex===0;$('#next-chapter').disabled=chapterIndex===book.chapters.length-1;
   $('#prev-page').disabled=page===0&&chapterIndex===0;$('#next-page').disabled=page===pageCount-1&&chapterIndex===book.chapters.length-1;
@@ -87,6 +92,7 @@ async function openReader(id,index,options={}){
   const token=++openToken;
   if(book&&chapter)storePosition();
   book=target;chapter=null;chapterIndex=Math.min(target.chapters.length-1,Math.max(0,index));
+  $('#source-open').hidden=true;
   ['#prev-chapter','#next-chapter','#prev-page','#next-page'].forEach(s=>$(s).disabled=true);
   $('#library').hidden=true;$('#reader').hidden=false;document.body.classList.add('reading');
   $('#reader-book').textContent=book.shortTitle;$('#reader-group').textContent=book.chapters[chapterIndex].group;
@@ -95,7 +101,11 @@ async function openReader(id,index,options={}){
   try{
     const data=await fetchChapter(book,chapterIndex);if(token!==openToken)return;
     chapter=data;
-    $('#prose').innerHTML=`<div class="chapter-kicker">${escapeHTML(data.group)}</div><h1>${escapeHTML(data.title)}</h1>${data.paragraphs.map((p,i)=>`<p id="paragraph-${i}">${escapeHTML(p)}</p>`).join('')}<div class="chapter-end">${chapterIndex===book.chapters.length-1?'이 책의 마지막 장입니다.':'이 장을 모두 읽었습니다.'}<button id="end-next">${chapterIndex===book.chapters.length-1?'책장으로 돌아가기':'다음 장 읽기 →'}</button></div>`;
+    $('#source-open').hidden=!data.sourceImage;
+    const isLast=chapterIndex===book.chapters.length-1,unit=book.unit==='page'?'쪽':'장';
+    const sourceNote=data.sourceImage?`<aside class="ocr-note" lang="ko">${data.ocrNeedsReview?'이 쪽은 자동 인식이 고르지 않습니다. 원본 사진으로 함께 확인하세요.':'사진에서 추출한 텍스트입니다. 표·도표·카드 무늬는 원본과 함께 확인하세요.'}<button id="inline-source" class="quiet">원본 ${data.sourcePage}쪽 보기</button>${chapterIndex===0&&book.sourceNotice?`<span>${escapeHTML(book.sourceNotice)}</span>`:''}</aside>`:'';
+    $('#prose').innerHTML=`<div class="chapter-kicker">${escapeHTML(data.group)}</div><h1>${escapeHTML(data.title)}</h1>${sourceNote}${data.paragraphs.map((p,i)=>`<p id="paragraph-${i}">${escapeHTML(p)}</p>`).join('')}<div class="chapter-end">${isLast?`이 책의 마지막 ${unit}입니다.`:`이 ${unit}을 모두 읽었습니다.`}<button id="end-next">${isLast?'책장으로 돌아가기':`다음 ${unit} 읽기 →`}</button></div>`;
+    if($('#inline-source'))$('#inline-source').onclick=()=>openSource(chapterIndex);
     $('#end-next').onclick=()=>chapterIndex===book.chapters.length-1?location.hash='':goChapter(chapterIndex+1);
     const saved=progress[id];const ratio=options.end?1:options.ratio??(saved?.chapter===chapterIndex?saved.ratio||0:0);
     requestAnimationFrame(()=>{layout(ratio);$('#prose').focus({preventScroll:true});storePosition()});
@@ -119,6 +129,25 @@ document.fonts.ready.then(()=>{if(chapter)layout(progress[book.id]?.ratio||0)});
 let touch=null;$('#reading-surface').addEventListener('touchstart',e=>{if(e.touches.length===1)touch={x:e.touches[0].clientX,y:e.touches[0].clientY};else touch=null},{passive:true});
 $('#reading-surface').addEventListener('touchend',e=>{if(!touch||settings.mode!=='pages'||!e.changedTouches.length)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;touch=null;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5&&getSelection().isCollapsed)turnPage(dx<0?1:-1)},{passive:true});
 function showDialog(selector){$(selector).showModal()}
+async function openSource(index){
+  if(!book||!book.chapters[index]?.sourceImage)return;
+  const token=++sourceToken;sourceIndex=index;
+  $('#source-prev').disabled=index===0;$('#source-next').disabled=index===book.chapters.length-1;
+  $('#source-caption').textContent=`원문 ${book.chapters[index].sourcePage}쪽 · 사진 ${index+1} / ${book.chapters.length}`;
+  $('#source-image').hidden=false;$('#source-error').hidden=true;
+  $('#source-frame').classList.remove('zoomed');$('#source-zoom').textContent='확대';$('#source-zoom').setAttribute('aria-pressed','false');
+  const src=book.chapters[index].sourceImage;
+  $('#source-image').alt=`${book.title} 원문 ${book.chapters[index].sourcePage}쪽`;
+  $('#source-image').src=src;
+  $('#source-image').onerror=()=>{if(token===sourceToken){$('#source-image').hidden=true;$('#source-error').hidden=false}};
+  $('#source-frame').scrollTo?.(0,0);
+  if(!$('#source-dialog').open)showDialog('#source-dialog');
+}
+$('#source-open').onclick=()=>openSource(chapterIndex);
+$('#source-prev').onclick=()=>openSource(sourceIndex-1);$('#source-next').onclick=()=>openSource(sourceIndex+1);
+$('#source-zoom').onclick=()=>{const zoomed=$('#source-frame').classList.toggle('zoomed');$('#source-zoom').textContent=zoomed?'화면에 맞추기':'확대';$('#source-zoom').setAttribute('aria-pressed',String(zoomed))};
+$('#source-read').onclick=()=>{$('#source-dialog').close();goChapter(sourceIndex)};
+$('#source-dialog').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'&&sourceIndex>0){e.preventDefault();openSource(sourceIndex-1)}else if(e.key==='ArrowRight'&&sourceIndex<book.chapters.length-1){e.preventDefault();openSource(sourceIndex+1)}});
 $$('.close-dialog').forEach(b=>b.onclick=()=>b.closest('dialog').close());
 $$('dialog').forEach(d=>d.addEventListener('click',e=>{const r=d.getBoundingClientRect();if(e.target===d&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))d.close()}));
 $('#settings-open').onclick=()=>showDialog('#settings-dialog');

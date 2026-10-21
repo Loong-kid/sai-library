@@ -97,5 +97,7 @@ for pi in range(6,len(doc)):
             current['paragraphs'].append(clean(text))
 assert len(chapters) == 70, f'Expected 70 chapters, got {len(chapters)}'
 solo = write_book({'id':'solo-leveling','title':'Solo Leveling','shortTitle':'Solo Leveling','koreanTitle':'나 혼자만 레벨업','author':'Chugong','genre':'판타지','description':'성진우의 이야기가 이어지는 곳. 본편의 마지막 여정부터 외전까지, 영어 원문으로 읽어보세요.','detail':'Chapter 201–270 · 외전 포함','pages':len(doc)},chapters)
-(OUT / 'catalog.json').write_text(json.dumps([holmes,solo],ensure_ascii=False),encoding='utf-8')
+existing=json.loads((OUT/'catalog.json').read_text(encoding='utf8')) if (OUT/'catalog.json').exists() else []
+retained=[b for b in existing if b['id'] not in ['sherlock-holmes','solo-leveling']]
+(OUT / 'catalog.json').write_text(json.dumps([holmes,solo]+retained,ensure_ascii=False),encoding='utf-8')
 print(json.dumps([{'book':m['id'],'chapters':len(m['chapters']),'words':m['words']} for m in [holmes,solo]]))
