@@ -118,11 +118,12 @@ async function openReader(id,index,options={}){
     chapter=data;
     $('#source-open').hidden=!data.sourceImage;
     const isLast=chapterIndex===book.chapters.length-1,unit=book.unit==='page'?'쪽':'장';
+    const ending=book.unit==='page'&&!isLast?'':`<div class="chapter-end">${isLast?`이 책의 마지막 ${unit}입니다.`:`이 ${unit}을 모두 읽었습니다.`}<button id="end-next">${isLast?'책장으로 돌아가기':`다음 ${unit} 읽기 →`}</button></div>`;
     const sourceNote=data.sourceImage?`<aside class="ocr-note" lang="ko">${data.ocrNeedsReview?'이 쪽은 자동 인식이 고르지 않습니다. 원본 사진으로 함께 확인하세요.':data.figures?.length?'도표의 ‘크게 보기’를 누르면 확대하거나 원본과 비교할 수 있습니다.':'사진에서 추출한 텍스트입니다. 필요하면 원본과 함께 확인하세요.'}<button id="inline-source" class="quiet">원본 ${data.sourcePage}쪽 보기</button>${chapterIndex===0&&book.sourceNotice?`<span>${escapeHTML(book.sourceNotice)}</span>`:''}</aside>`:'';
-    $('#prose').innerHTML=`<div class="chapter-kicker">${escapeHTML(data.group)}</div><h1>${escapeHTML(data.title)}</h1>${sourceNote}${chapterBody(data)}<div class="chapter-end">${isLast?`이 책의 마지막 ${unit}입니다.`:`이 ${unit}을 모두 읽었습니다.`}<button id="end-next">${isLast?'책장으로 돌아가기':`다음 ${unit} 읽기 →`}</button></div>`;
+    $('#prose').innerHTML=`<div class="chapter-kicker">${escapeHTML(data.group)}</div><h1>${escapeHTML(data.title)}</h1>${sourceNote}${chapterBody(data)}${ending}`;
     $$('#prose .figure-image').forEach(img=>img.onerror=()=>{const note=document.createElement('p');note.className='figure-error';note.lang='ko';note.textContent='도표를 불러오지 못했습니다. 원본 페이지에서 확인하세요.';img.replaceWith(note)});
     if($('#inline-source'))$('#inline-source').onclick=()=>openSource(chapterIndex);
-    $('#end-next').onclick=()=>chapterIndex===book.chapters.length-1?location.hash='':goChapter(chapterIndex+1);
+    const endNext=$('#end-next');if(endNext)endNext.onclick=()=>chapterIndex===book.chapters.length-1?location.hash='':goChapter(chapterIndex+1);
     const saved=progress[id];const ratio=options.end?1:options.ratio??(saved?.chapter===chapterIndex?saved.ratio||0:0);
     requestAnimationFrame(()=>{layout(ratio);$('#prose').focus({preventScroll:true});storePosition()});
     if(chapterIndex+1<book.chapters.length)fetchChapter(book,chapterIndex+1).catch(()=>{});
