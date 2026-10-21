@@ -34,17 +34,49 @@ Outs — Flop to turn — Turn to river — Flop to river
 
 [19] 20230612_182125.jpg
 
+Outs — Flop to turn — Turn to river — Flop to river
+
+8 — 17.02% — 17.39% — 31.45%
+
+9 — 19.15% — 19.57% — 34.97%
+
+10 — 21.28% — 21.74% — 38.39%
+
+11 — 23.40% — 23.91% — 41.72%
+
+12 — 25.53% — 26.09% — 44.96%
+
+13 — 27.66% — 28.26% — 48.10%
+
+14 — 29.79% — 30.43% — 51.16%
+
+15 — 31.91% — 32.61% — 54.12%
+
+16 — 34.04% — 34.78% — 56.98%
+
+17 — 36.17% — 36.96% — 59.76%
+
+18 — 38.30% — 39.13% — 62.44%
+
+19 — 40.43% — 41.30% — 65.03%
+
+20 — 42.55% — 43.48% — 67.53%
+
 Rule of Two and Four
 
-If memorizing these charts seems like a daunting task, have no worries. There's a much easier way to quickly estimate how likely you are to improve. If you're on the flop, count up all your outs and multiply by four. If you're on the turn, count up all of your outs and multiply by two.
+If memorizing these charts seems like a daunting task, have no worries. There’s a much easier way to quickly estimate how likely you are to improve. If you’re on the flop, count up all your outs and multiply by four. If you’re on the turn, count up all your outs and multiply by two.
 
 Rule of Two (for turn play)
 
 (number of outs)(2) = odds of improving
 
-Example for straight draw (8 outs) (number of outs)(2) = odds of improving (8)(2) = odds of improving 16% = odds of improving
+Example for straight draw (8 outs)
 
-01 - The Math
+(number of outs)(2) = odds of improving
+
+(8)(2) = odds of improving
+
+16% = odds of improving
 
 [20] 20230612_182134.jpg
 
@@ -84,13 +116,7 @@ If you subtract the five visible cards from a deck of 52 cards, you realize that
 
 Below is a list of backdoor draws and the equities associated with them. These percentages my seem small, but they can have a tremendously profitable impact on your global strategy if implemented correctly. Thus, they are included in this section.
 
-Odds Turn/River % age Your Cards Against Combos
-
-3 Card Straight w/o Ace (4-5-6) 3 Card Straight w/ Ace (A-2-3)
-
 [22] 20230612_182151.jpg
-
-3 Card Straight 1 Gap w/o ace (6-7-9) 3 Card Straight 1 Gap With Ace (A-2-4) 3 Card Straight 2 Gaps (A-4-5) 3 Card Flush (6¥-8"-Q") One Pair-to-a Full House (5-5-9-10-K) One Pair-to-Quads (6-10-J-6-7)
 
 “impact that they can have on your turn equity, will play a considerable role in the aggressive strategy that we will examine.
 
@@ -98,23 +124,17 @@ Diluted Equity
 
 Before we end our pot equity discussion, there's one final thing you need to ‘know. When draws clash with certain holdings, their equities can become 2 ‘little diluted. It's important for you to be aware of this phenomenon and react accordingly.
 
-Villain Board Outs Equity Q¢-Be-4e
-
 board pairs on the river.
+
+Draw — Combinations — Probability — Odds; 3 Card Straight 1 Gap w/o ace (6-7-9) — 32 — 3.0% — 32-to-1; 3 Card Straight 1 Gap With Ace (A-2-4) — 16 — 1.5% — 66-to-1; 3 Card Straight 2 Gaps (A-4-5) — 16 — 1.5% — 66-to-1; 3 Card Flush (6♥-8♥-Q♥) — 45 — 4.2% — 23-to-1; One Pair-to-a Full House (5-5-9-10-K) — 27 — 2.5% — 27-to-1; One Pair-to-Quads (6-10-J-6-7) — 1 — 0.93% — 1,080-to-1
 
 [23] 20230612_182154.jpg
 
 Flush Draw versus Set
 
-Villain Board Equity
-
 The same concept applies when a flush draw collides with a set. Typically, a flush draw will improve to a flush 36% of the time (9 outs x 4 = 36%). However, that doesn’t mean it will improve to the best hand. The board could pair on the turn leaving you drawing dead. You could also rnake your hand on the turn, only to lose when the board pairs on the river.
 
 Flush Draw versus Set (No Blockers)
-
-Equity Villain Board
-
-Ae-Q¢
 
 The worst situation is when the board pairs and completes a flush simultaneously. This situation is rare but it comes up from time to time. In a nutshell, it’s best to subtract 6-9% equity from your draw if you think you're up against a set.
 
@@ -134,7 +154,7 @@ What is your call divided by the total size of the pot?
 
 (your call)/(your call + his bet + pot ) = % you need to breakeven ($100)($300) = 0.33 or 33% Your call:
 
-Chips in Middle: 33% Your call @ Chips in Middle
+Your call @ Chips in Middle
 
 \ His Bet
 
@@ -160,19 +180,13 @@ The pot is $100. Someone moves all-in for $200. You have him covered. How often 
 
 Your Call:
 
-Chips in Middle: 20% Your Call i Chips in Middle
+Your Call i Chips in Middle
 
 01 - The Math
 
 [26] 20230612_182214.jpg
 
 if you have the best hand more than 40% of the time you should cay Memorizing the following simple ratios will make your life much easier
-
-Breakeven % Bet Size
-
-1/2 pot
-
-3/4 pot 1x pot 2x pot
 
 implied Odds
 
@@ -272,14 +286,6 @@ Chips in Middle Your Bet
 
 if your opponent will fold more than 67% of the time you should move alk, Memorizing the following simple ratios will make your life much easier.
 
-Amount to bluff |Breakeven %
-
-1/2 pot
-
-3/4 pot
-
-1x pot 2x pot
-
 Dynamic Fold Equity
 
 Semi-bluffs rely on dynamic fold equity. The purpose of dynamic fold equity calculations is to determine how often your opponent needs to fold for you to breakeven if you're semi-bluffing with a draw. Again, this is similar to pot odds calculations except you're the one making the bet.
@@ -366,19 +372,9 @@ I Fold Equity Needed Minimum Defence Frequency
 
 ‘Memorizing the following ratios will make your life much easier.
 
-Bet size Minimum Defense Frequency AI2 pot (3/4 pot NX pot (2x pot
-
 [35] 20230612_182320.jpg
 
 Example 1 (Defending Against Steals)
-
-Action Hole Cards Starting Stack
-
-Hero (BTN)
-
-Villain 1 (SB)
-
-Villain 2 (BB)
 
 Hero is risking $30 to win $15. (Risk)/(Risk + Reward) = fold equity requirement. $30/$45 = 0.67 or 67%. Hero could open with two jokers and break even ifthe frequency with which both blinds fold is 67%.
 
@@ -386,29 +382,17 @@ Hero is risking $30 to win $15. (Risk)/(Risk + Reward) = fold equity requirement
 
 Example 2 (Defending Against Re-Steals)
 
-Starting Stack Hole Cards Action
-
-Hero (BTN) Villain 1 (SB) Villain 2 (BB)
-
 Willain!2 is risking $90 to win $45. (Risk)/(Risk + Reward) = fold equity requirement. $90/$1 35 = 0.67 or 67%. Villain could 3-bet with two jokers and break even if Hero folds 67% of the time.
 
 ‘Another way of putting it is, 1 - A= minimum defense frequency. 1 - 0.67 = 0.33 or 33%, If Hero folds 33% of the time, Villain could 3-bet with any two ‘cards and break even without ever winning a pot post-flop.
 
 [36] 20230612_182336.jpg
 
-Example 3 (Defending Against C-Bets)
-
-Starting Stack Hole Cards Pot $200
-
-Villain 1 (SB) Hero (BTN)
-
 quirement. $100/$300 = 0.33 or 33%, Villain could c-bet with two jokers ;,, break even if Hero folds 33% of the time.
 
 pees way of putting itis, 1-A= minimum defense frequency. 1 - 03; = 0.67 or 67%. If Hero folds 33% of the time, Villain could c-bet with any ty, cards and break even, even with no chance of improving to the best hand.
 
 Example 4 (Defending Against Bluff-Raises)
-
-Hole Cards Starting Stack Pot $200 Villain 1 (SB) Hero (BTN)
 
 Hero is risking $300 to win $300. (Risk)/(Risk + Reward) = fold equity i
 
@@ -440,29 +424,15 @@ Pot to better understand risk versus reward. The higher the SPR, the stronger
 
 [38] 20230612_182344.jpg
 
-Starting Stack
-
-Example 1 (SPR = 2)
-
-Hole Cards Action '$30/Call Villain 1 (BTN). Hero (SB) Villain 2 (BB) Villain 1 has the smallest stack involved in the hand (effective stack)
-
-Starting Stack Hole Cards Pot $200 $100/Call Aa-A¥ Hero (SB) Villain (BTN)
-
 Effective Stack Size/Pot Size = SPR $400/$200 = 2
 
 With @ stack-to-pot ratio of 2, Hero should clearly never fold A-A on t's flop. He can c-bet and call a shove with confidence — knowing that Villain w! Sik off with any piece of this flop. Hero will always have enough equity © continue.
 
 Example 2 (SPR = 6)
 
-Action Hole Cards Starting Stack Villain 4 (BTN) |$30/Call ero (SB) Villain 2 (BB)
-
 Hero has the smallest stack involved in the hand (effective stack):
 
 [39] 20230612_182347.jpg
-
-Pot $200 Hole Cards Starting Stack Hero (SB) $100/Call
-
-Villain (BTN)
 
 Effective Stack Size/Pot Size = SPR $1,200/$200 = 6
 
@@ -470,19 +440,7 @@ With a stack-to-pot ratio of 6, Hero has a decision to make. He’s drawing Ito 
 
 Example 3 (SPR = 10)
 
-Starting Stack Action Hole Cards
-
-Villain 1 (BTN) $30/Call
-
-Hero (SB) Villain 2 (BB)
-
 Villain 1 has the smallest stack involved in the hand (effective stack).
-
-Starting Stack Hole Cards Pot $200
-
-Hero (SB) $100/Call
-
-Villain (BTN)
 
 Effective Stack Size/Pot Size = SPR $2,000/$200 = 10
 
@@ -493,10 +451,6 @@ With a stack-to-pot ratio of 10, Hero should virtually never get stacks in
 would frequently utilize. od three completely different situations. Thar... One factor can chanae the entira dun.’ raanizant af stack sizes. DOt Sizes and c..
 
 ‘bet sizes at all times.
-
-As a rule of thumb...
-
-Default Action with Top Pair Plus Stack-to-pot Ratio Always Stack Off Situational Never Stack Off
 
 ‘in general, you need to be aware of the SPR you are trying to create. Smal \pairs and suited connectors perform well in large SPR situations while J-J+/A-« ‘perform well in small SPR situations. You can easily manipulate the SPR with you' 3-bet sizing.
 
@@ -722,7 +676,7 @@ isn’t an exact range of hands that will always generate ‘the most EV. Adjust
 
 [52] 20230612_182526.jpg
 
-This page contains a chart or diagram. Open the original page to read all labels and values.
+This page contains a chart or diagram.
 
 [53] 20230612_182529.jpg
 
@@ -734,8 +688,6 @@ aan nt. | would suggest chopping in $7. 7
 
 -bettina wide enough. As a roca more blinds. artificially inflatina the =. initiative and fallawina it Lin nast—flan “the pot, claiming the pre-flop initiative, and following it up post-flop,
 
-3.5x BTN Open (36%)
-
 fundamental inconsistency in their ranges.
 
 AWANC EN.
@@ -746,17 +698,11 @@ ate position because there are fewer opponents who can wake up with a hand ‘an
 
 31Sx CO Open (23%)
 
-% of Raise .
-
 You are much more likely to get 3-bet and/or go post-flop out of position when opening from the cutoff. This is what creates the massive 13% differcutoff and button opening frequencies. The good news is ithat the button is rarely playing perfectly.
 
 playing way too tight and/or face-up, you can easily get ‘Way with opening your button range from the cutoff. Keep in mind that the
 
 [56] 20230612_182601.jpg
-
-3.5x HJ Open (16%)
-
-‘% of Raise
 
 Here you are out of position against two players when you open from the hijack. The cutoff and button would love to try and invenfete with your plans by flatting or 3-betting. Already, your opening range should shrink to 1 6% of hands without further information.
 
@@ -771,8 +717,6 @@ Take note of the hands Snowie chooses te glpinats ti'stomhe small pocket pairs a
 ke note of the speculative hands that Snowie chooses to keep ll suited aces perform well out of position in both heads-up y pots. In heads-up pots, a weak ace is likely to retain its at showdown. In multi-way pots, drawing to the nuts is of lue to exponential growth of the pot size.
 
 [58] 20230612_182608.jpg
-
-3.5x EP3 Open (11%)
 
 Again, the small suited aces and weak suited Broadways stick around lor way pots. In heads-up nate wars fey a al imbath ieeds-up : ant two Ea. Li A OT position in both Reads=uP all att retain their equity.
 
@@ -789,8 +733,6 @@ Following billions of simulations, Snowie learned it could be exploited if it Op
 While opening A2-A5s and folding A6-A8s would be almost perfect, a su- ‘Percomputer could still exploit you for micro amounts of EV because you would ‘be lacking board coverage in rare circumstances. For simplicity, | instruct my ‘Students to open all the suited aces at soft tables and fold all the suited aces at ‘tough tables, tabl Maintain your sanity!
 
 [60] 20230612_182620.jpg
-
-3.5x EP1 Open (8%)
 
 Did you notice how Snowie isn’t fist-pumping to open 10-10 from EP1? Here’s the bottom line: The blinds are your only financial incentive to open preflop. In other words, if the blinds didn’t exist you would have no incentive to play a hand from EP1. You would have incentive to move all-in with A-A from other positions if someone put chips in the pot. But other than that, you would have no incentive to play a hand.
 
@@ -828,8 +770,6 @@ Every box is call or raise because you're not allowed to fold when the small bli
 
 [64] 20230612_182641.jpg
 
-BTN limp — 4x SB Isolation
-
 Compare the small blind’s isolation range to the small blind’s 3-betting range versus the button later in this book. It's very similar except that Snowie is calling with more hands because of the 5-to-1 pre-flop odds. Essentially, you should be isolating with most of the hands you would have 3-bet for Pale
 
 This is of utmost importance in $2/$5 NL games with a $7 rake. It’s mindboggling that solid pros still limp, knowing that the $15 pot will be decreased to $12 after the rake. You have to isolate wider to overcome the $2 jackpot
@@ -852,8 +792,6 @@ range. ‘I recommend isolating with any hand you feel comfortable playing post-
 
 [66] 20230612_182652.jpg
 
-HJ limp > 4.5x C0 Isolation
-
 feel the same way about this situation. | would isolate with all the pairs, Broadways, and suited connectors until Villain started limp-calling with strong hands or limp-raising. The worst thing you can do is Over-limp and expose yourself to being isolated, out of position, with a capped range,
 
 [67] 20230612_182655.jpg
@@ -863,8 +801,6 @@ Dilimp 4.5x HJ Isolation
 ‘would still isolate wider than this from the hijack. The 8-8+/A-2s+ region joing to be profitable long-term against the vast majority of e in live play. But just because | would isolate wider, that ou have a green light to go crazy. The cutoff and button can still
 
 [68] 20230612_182703.jpg
-
-EP3 limp — 4.5x LJ Isolation
 
 Early position limpers create a weird dynamic in splashy games. They’re all still terrible players, but some of them have adapted by limp-raising with big hands to squeeze out the raiser and all the flatters behind. | recommend using Snowie's suggestions if you suspect the early position limpers are plotting against you.
 
@@ -877,8 +813,6 @@ Pa limp — 4.5x EPS Isolation
 ‘This situation is similar to the previous one. The only thing | want to point ation range and over-limping range is almost identical to the wie suggests using to 3-bet an EP2 opener. This leads me these limpers as a potential threat, instead of viewing them passive fish you typically see in live games.
 
 [70] 20230612_182711.jpg
-
-EP] limp — 4.5x EP2 Isolation
 
 also think it’s interesting that Snowie is frequently over-limping with Q-0/J-J, intending to limp-call instead of limp-raising. | have to assume this is done for balance and deception. What's even more interesting is that I’ve seen Phil Hellmuth do this a couple times in bracelet events. Maybe he's mito something.
 
@@ -897,8 +831,6 @@ The biggest thing you need to keep in mind is that the only reason you Of positi
 “Asa result, its important to ask yourself how much equity you'll be able au, ae d suited connectors a wide variety of boards. They capture a lot of equity. Offsui
 
 [72] 20230612_182727.jpg
-
-3x SB Open — BB Defense
 
 Snowie suggests an extremely complicated mixed strategy from the big blind to combat the extremely complicated mixed strategy it suggests from the small blind. Once again, it's difficult to memorize and impossible to implement. There’s an easier way to interpret all of this.
 
@@ -944,8 +876,6 @@ my students to 3-bet all the suited aces at soft ‘ables and call with all the 
 
 [76] 20230612_182747.jpg
 
-3x LJ Open — BB Defense
-
 3-betting light is a much less viable option against early and middle position opens. Early position openers have to deal with so many players behind them — players who can wake up with a hand and 3-bet, or flat and force the opener to play three streets out of position — that they have no choice but to tighten their opening ranges. Consequently, it’s difficult to generate fold equity by 3-betting light against their value-centric ranges.
 
 Flat with the small pockets pairs, small suited aces, and weak suited
@@ -959,8 +889,6 @@ Eatly position opens are weighted so heavily toward A-Q+ that it doesn't tt with
 bre mare ting. Fee ear position opener is someone who habitually
 
 [78] 20230612_182759.jpg
-
-3x EP2 Open — BB Defense
 
 To reinforce my argument above, Snowie is flatting almost its entire range against EP2 opens. It’s extremely polarized between A-A/A-Qs+ and random bluffs — most of which have blockers. So again, if the early Position opener is someone who habitually folds hands like J-J/10-10/A-Q to big blind 3-bets, it doesn’t make sense to 3-bet with Q-Q+ for value.
 
@@ -996,11 +924,9 @@ Which option sounds better?
 
 [81] 20230612_182812.jpg
 
-This page contains a chart or diagram. Open the original page to read all labels and values.
+This page contains a chart or diagram.
 
 [82] 20230612_182818.jpg
-
-3x CO — SB 3-Bet (12%)
 
 Tighter opening ranges result inutigivign 3-betting ranges from the small blind. Again, resist the urge to flat. | know this goes against everything you've
 
@@ -1013,8 +939,6 @@ Snowie Starts to flat a very small percentage of the time versus hijack ‘Opens
 ‘However, once again, none of your opponents are playing perfectly. Most from the hijack. Very few know the correct retha initiative Sa obviously, | recom- ' nen vou have the initiative. So obviously, | recomend 5 1 1 1 19 2 157 1768 101 57 90.911690 3-betting 5 1 1 1 19 3 328 1769 64 53 95.004890 your 5 1 1 1 19 4 421 1770 110 48 96.452850 entire 5 1 1 1 19 5 539 1769 102 40 96.452850 range 5 1 1 1 19 6 654 1756 51 37 93.284966 for 5 1 1 1 19 7 718 1750 170 42 0.000000 simPlc'y
 
 [84] 20230612_182826.jpg
-
-3x LJ — SB 3-Bet (7%)
 
 There are only two situations where | don't 3-bet my entire continuance range out of the small blind. This first one is in multi-way pots. There are times when you can't profitably squeeze out of the small blind... but you can profitably flat because you have a hand that performs well out of Position in multiway pots (e.g. small pocket pairs).
 
@@ -1029,8 +953,6 @@ Did you notice how polarized Snowie's 3-betting range becomes versus P3 opens? I
 ‘One thing | wanted to point out is the fairly large difference between opening range (11%) and its 10x SB defense range (6%) at pth (with no rake). Snowie has basically concluded that ae creates an 83% increase in range size ~ minus the
 
 [86] 20230612_182835.jpg
-
-3x EP2 Open — SB 3-Bet (6%)
 
 There's very little difference between Snowie'’s EP3 Opening range and its EP2 opening range. Thus, there’s very little difference in its SB defense range against the two. Snowie can open almost the exact same range because players in middle position are sandwiched between the opener and the “squeezers” behind them.
 
@@ -1072,8 +994,6 @@ Put some chips in the pot post-flop!
 
 [90] 20230612_182851.jpg
 
-3x HJ Open — BTN Defense
-
 Against all but the nittiest players Soin shiny Still 3-bet Q-Q+/A-K for
 
 [91] 20230612_182854.jpg
@@ -1084,8 +1004,6 @@ Fold A-Jo/K-Qo because they're dominated too frequently. Eliminate A-6 #-9s from
 
 [92] 20230612_182858.jpg
 
-3x EP3 Open — BTN Defense
-
 Eliminate A-6 - A-9s and cautiously consider 3-betting 5-45 - 76s.
 
 [93] 20230612_182900.jpg
@@ -1094,9 +1012,7 @@ HEP2 OPEN — BTN Defense
 
 [94] 20230612_182905.jpg
 
-3x EP1 Open —» BTN Defense
-
-Ditto.
+This page contains a chart or diagram.
 
 [95] 20230612_182907.jpg
 
@@ -1108,8 +1024,6 @@ Wich value against the opener.
 
 [96] 20230612_182912.jpg
 
-3x LJ Open — CO Defense
-
 Eliminate A-6 - A-9s and Beas TeGe inna 3-betting range. Start flatting Q-Q and treating them like small pairs with extra showdown value.
 
 [97] 20230612_182913.jpg
@@ -1120,11 +1034,7 @@ Ditto.
 
 [98] 20230612_182916.jpg
 
-3x EP2 Open — CO Defense
-
-Notin range
-
-Ditto.
+This page contains a chart or diagram.
 
 [99] 20230612_182918.jpg
 
@@ -1210,8 +1120,6 @@ Cold 4-Betting
 
 3x BTN Open — SB 3-Bet + BB 4-Bet (1/2-pot)
 
-Notin range
-
 recommend 4-betting with 9-9+/A-Q+/A-10s+/K-Qs against good, -bettors. Against everyone else, thi more like 10-10+/A-K. People are super-nitty.
 
 [109] 20230612_182949.jpg
@@ -1245,8 +1153,6 @@ This is where Snowie is really good at crushing people with brute force. It’s 
 [113] 20230612_183001.jpg
 
 5-Betting
-
-% of Raise .
 
 ‘Here's the last of the small blind versus big blind charts. | just wanted to Ps ined thinn aviar
 
@@ -1494,25 +1400,11 @@ Reasons to Bet
 
 Yalue-bet
 
-Villain (BB)
-
-Hero (BTN)
-
 ie ing that if ue-betting a ing range: n half the
 
 [138] 20230612_183202.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Hero bets $100. He is risking $100 to win $200. He needs Villain :, fold 33% of the time to break even. Villain has to defend 67% of the time to prevent Hero from profitably bluffing with any two cards. Hero bet the river assuming that Villain would fail to meet minimum defense frequency
-
-Protection
-
-Villain (BB)
-
-Hero (BTN)
 
 unlikely to stab the turn. Why give him a free card?
 
@@ -1560,19 +1452,9 @@ your range is, the bigger you should be betting.
 
 power correct to turn top pair into a bluff
 
-Villain2 (BB)
-
-Villain’ (SB)
-
-Hero (BTN)
-
 §5°570NL: Hero raises to $30. The Big Blind calls.
 
 Focus'6nc-betting the flop with hands that can generate three streets of value. Many players incorrectly c-bet with top pair no kicker, middle ait end'bottom pair. They're really easy to exploit. If they check the flop ‘they have ace high at best. You can force them to fold those hands by the
-
-Villain (BB)
-
-Hero (BTN)
 
 tks. Hero bets $30.
 
@@ -1582,17 +1464,9 @@ ouq ‘ ‘ i ld be to go for three streets of value with ans only that beat Her
 
 monds from which Hero would like to extract value.
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 Some turn cards make it impossible to extract value. Hero is losing to A-10, A-J, Q-J, 2-2, K-10, and diamonds. All of Villain’s weaker Q-x and J-x combos will have to fold unless they have the K@ or 10¢. Hero shoulc check and evaluate the river.
-
-Villain (BB)
-
-Hero (BTN) Villain bets $60. Hero folds.
 
 rarely turn Q-x or J-x into a bluff, This is a very easy fold.
 
@@ -1600,19 +1474,9 @@ rarely turn Q-x or J-x into a bluff, This is a very easy fold.
 
 ‘yaue-betting Two Streets
 
-Villain2 (BB)
-
-Villain’ (SB)
-
-Hero (BTN)
-
 §5°S70NL: Hero raises to $30. The Big Blind calls.
 
 (antoWeard Value-betting in marginal spots. Villain will work very hard tofind a way to call with worse. It’s criminal to leave value on the table.
-
-Villain2 (BB)
-
-Hero (BTN)
 
 ‘Milan checks, He 30. Villain cal
 
@@ -1620,17 +1484,9 @@ a : to go for three stree 1D. The only hands that beat Hero are Mig Sn 9-9, mpar
 
 [144] 20230612_183229.jpg
 
-Villain2 (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $60. Villains calls.
 
 People check way too much on this turn. Hero is losing to K-Q, 0-1 0-85, 0-65, 9-8, 8-6s, 8-8, 6-6, 7-55, and J-10. But Q-10, Q-75, 10. 10, J-9s, J-8s, 10-9, 10-8s, 9-7s, 8-7s, 7-6s, and 7-7 will be much mor inclined to check-call because they picked up equity. Betting the turn als: makes the hand easier to play because Villain will check-raise with mostc his straight combos and check-call with most of his pair plus draw combo
-
-Villain2 (BB)
-
-Hero (BTN) Villain checks. Hero checks.
 
 2-75, 10-10, J-95, j-g¢ fae difficult for Hero to get called 44 ie that the draws have missed i ' 10-8s, 9-7s, 8-7s, 7-6S, and vile” range and safely got to showdown.
 
@@ -1640,19 +1496,9 @@ Hero (BTN) Villain checks. Hero checks.
 
 “pote: sore rivers look scary but are completely harmless.
 
-Villain (BB)
-
-Villain1 (SB)
-
-Hero (BTN)
-
 Hero raises to $30. The Big Blind calls.
 
-@Siimportant to narrow down Villain’s check-calling range to deterfhinelif you Can value-bet a third time. There are plenty of situations where GWercards rarely benefit Villain’s range. As a result, you can value-bet sec- ‘ond pair with impunity. You can also represent these cards if you decide to bluff the river.
-
-Villain (BB)
-
-Hero (BTN)
+@Siimportant to narrow down Villain’s check-calling range to deterfhinelif you Can value-bet a third time. There are plenty of situations where GWercards rarely benefit Villain’s range. As a result, you can value-bet sec- ‘ond pair with impunity. You can also represent these cards if you decide to
 
 Villain checks. Hero bets $30. Villain calls.
 
@@ -1662,17 +1508,9 @@ On the table.
 
 [146] 20230612_183237.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $60. Villain calls. Hero should value-bet this turn and expect to get called by J-x, 10-1)
 
 - 8-8, 7-x, 6-6 - 4-4, and A-5 - A-2s. This hand is too strong to check and try to induce Villain to stab the river. Continue to extract value.
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $120. Villain calls.
 
@@ -1680,29 +1518,13 @@ range. This is an easy value-bet.,
 
 [147] 20230612_183241.jpg
 
-Viloin2 (BB)
-
-Wilein’ (SB) Hero (BTN)
-
 §S2S70NL: Hero raises to $30. The Big Blind calls. (Gefinihands are only strong enough to generate two streets of value. (isialibest to check the flop with these hands and give Villain an op- If he checks the turn, you can start value-betting.
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain checks. Hero checks:
 
 [148] 20230612_183245.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $30. Villain calls. Villain almost never has a set, two pair, or Q-x when he checks twice Most of his range is 10-x, 9-9 - 6-6, 5-x, 4-x, 3-3, 2-2, and A-x. Her should start value-betting.
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $60. Villain calls.
 
@@ -1712,37 +1534,17 @@ range is 10-x that will probably call another bet.
 
 “uebetting Out of Positio,
 
-Vilain3 (BB)
-
-Vilian2 (SB)
-
-Hero (CO)
-
-Villian1 (BTN)
-
 §S52S70NL: Hero raises to $30. The Button calls.
 
 WSierule OF thumb, don’t check to induce in smaller games or against weaker players. Losing players treat poker as a value-oriented game. ‘eye unfamiliar with fold equity andasa result, they rarely bluff or stab ‘nsituations where a pro would frequently attack.
-
-Hero (CO)
-
-Villian (BTN)
 
 ‘Hero bets $35. Villain calls- -10, 9-x, diamonds, Jj-10, an ity to take a free
 
 [150] 20230612_183252.jpg
 
-Hero (CO)
-
-Villian (BTN)
-
 Villain checks. Hero bets $70. Villain calls.
 
 Hero should bet for the same reasons he did on the flop. He shou; expect to get called by Q-x, 10-10, 9-x, and diamonds. There are times when he could check to induce a stab from one of Villain’s floats, but its usually better to go for big value on wet boards.
-
-Hero (CO)
-
-Villian (BTN)
 
 Hero bets $140. Villain calls.
 
@@ -1754,19 +1556,9 @@ maximum value fromm Q-x.
 
 a Resist the urge to use blocker bets
 
-Villain (BB)
-
-Villian2 (SB) Hero (CO)
-
-Villian1 (BTN)
-
 $5-$10NL: Hero raises to $30. The Button calls.
 
 its important to understand the difference between a big blind defense fenge and a button flatting range. The button has a smaller range with a higher concentration of pocket pairs. As a result, Hero should value-bet More frequently on dry boards.
-
-Hero (CO)
-
-Villian (BTN)
 
 Hero bets $35. Villain calls.
 
@@ -1776,15 +1568,7 @@ his dry.
 
 [152] 20230612_183305.jpg
 
-Hero (CO)
-
-Villian (BTN)
-
 Hero bets $70. Villain calls. Hero should bet and continue to extract value from 10-x, 9-9-5. 3-3, and clubs. Villain will always assume that Hero is barreling with clus and overcards.
-
-Hero (CO)
-
-Villian (BTN)
 
 Hero checks. Villain bets $140. Hero folds.
 
@@ -1796,19 +1580,9 @@ Hero checks. Villain bets $140. Hero folds.
 
 “pot: cee k g ains who float too much,
 
-Villain3 (BB)
-
-Hero (CO) Villian2 (SB)
-
-Villian1 (BTN)
-
 S52S70NL: Hero raises to $30. The Button calls.
 
-Some Villains defend with way too many speculative hands on the flop. is a brick, you can check, allowing Villain to bluff too often and Value-bet with worse.
-
-Hero (CO)
-
-Villian (BTN)
+Some Villains defend with way too many speculative hands on the flop. is a brick, you can check, allowing Villain to bluff too often
 
 SS ae tobe Racicallhs \Jillain ien Fata: - 56.5.5, ax, spades, oe gutshots. Basically, Villain isn't folding any part fis range on this board This creates a very interesting dynamic on blank
 
@@ -1816,17 +1590,9 @@ turn cards.
 
 [154] 20230612_183312.jpg
 
-Hero (CO)
-
-Villian (BTN)
-
 Hero checks. Villain bets $70. Hero calls
 
 Hero could bet and expect to get called by J-x, 10-10 - 8-8 7., and spades; however, he could check and expect all of those hands arg the gutshots to bet. Villain will also follow through on a lot of rivers, thus drastically increasing the EV of Hero’s hand.
-
-Hero (CO)
-
-Villian (BTN)
 
 Hero checks. Villain bets $140. Hero calls.
 
@@ -1854,33 +1620,15 @@ Capped ranges.
 
 Checking A-High for Balance
 
-way off balance.
-
-Villain2 (BB)
-
-Villian (SB)
-
-Hero (BTN)
-
 $5-S10NL: Hero raises to $30. The Big Blind calls.
 
 The ideal c-betting percentage on dry boards is about 70%. '* yo ¢-bet ali your gutshots, OESD’s, Broadways, and backdoor flush draws yo Shoul¢ be really close to that number. Try to avoid c-betting with hancs
 
 - uae one overcard and no backdoor perential. You're usually better of checking the flop with those hands.
 
-Villain (BB)
-
-Hero (BTN)
-
-Villain checks. Hero checks.
-
 flop and try to get to showdown.
 
 [157] 20230612_183326.jpg
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain bets $30. Hero folds.
 
@@ -1890,35 +1638,19 @@ Checking Bottom Pair for Balance
 
 roti: Checking the flop with a pair and a flush draw is great for deception.
 
-Villain2 (BB)
-
-Villian1 (SB) Hero (BTN)
-
 $5-$10NL: Hero raises to $30. The Big Blind calls.
 
 £ rieh draw. his ranae will he var, -..~~ 4 ut if he a. occasionally check to balance thic ranan tus ne flops bottom pair to go with his flich tes... e huge mistakes. as
 
 [158] 20230612_183330.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 Hero has plenty of showdown value. He’s ahead of 7-x, 6-6 - 2-2, a air. He also doesn't have to worry about A-x combos getting there. Thi board isn’t great to barrel on. Villain will be very sticky with flush draws straight draws, pair + straight draws, and pair + gutshots. Hero shoul check and try to get to showdown. He can call any turn bet.
 
-Villain (BB)
-
-Hero (BTN) Villain bets $30. Hero calls.
-
 Villain to be ‘sively. It's important for Hero to call the turn and Villain to make mistakes on the river.
 
 [159] 20230612_183332.jpg
-
-Villain (BB)
-
-Hero (BTN)
 
 Willain bets $60. Hero raises to $300. Villain calls.
 
@@ -1928,10 +1660,6 @@ fero'an liberally overbet a lot of rivers like this. His line makes no iselfrom 
 
 ‘Potp: Check the flop with middle pair to protect weaker hands in your range.
 
-Villain2 (BB)
-
-Villian (SB) Hero (BTN)
-
 - d calls.
 
 : Feary of those three things, checking is always
@@ -1940,17 +1668,9 @@ the riaht nlaN,
 
 [160] 20230612_183337.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 Hero's hand isn’t strong enough to bet multiple streets. There are Onl eight overcards to protect against. His hand is too strong to bluff with, This is the perfect showdown value hand.
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain bets $30. Hero calls.
 
@@ -1958,19 +1678,11 @@ outs if it isn’t. This is a great hand to call the turn with.
 
 [161] 20230612_183340.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks. Hero's hand isn’t strong enough to bet for value. It’s also too strong to fimlinto a bluff. This is a good hand to check the river with. It should be 00d most of the time.
 
 Checking Top Pair for Balance
 
 Pro tip: It’s important to check weak top pair hands every once and awhile.
-
-Villain2 (BB)
-
-Villiant (SB) Hero (BTN)
 
 $5-$10NL: Hero raises to $30. The Big Blind calls.
 
@@ -1980,25 +1692,13 @@ Pvtoetract vate by ame 19 *e turn at the wr ong time.
 
 [162] 20230612_183344.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 Hero's hand isn’t good enough to bet three streets for value. There». only four overcards to protect against. He’s better off checking and givin; Villain @ chance to stab the turn. If Villain doesn’t bite, Hero can start vdwe-betting on the turn.
 
-Viliain (BB)
-
-Hero (BTN) Villain bets $30. Hero calls.
-
 evaluate the river,
 
 [163] 20230612_183346.jpg
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain bets $60. Hero calls.
 
@@ -2008,35 +1708,19 @@ for Balance
 
 extract value with top set ona dry board.
 
-Villain2 (BB)
-
-Villiant (SB) Hero (BTN)
-
 Top set blocks many of Ee top pair hands that Villain could call the
 
 against you.
 
 [164] 20230612_183351.jpg
 
-Villain (BB)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 The Q¢ is the only queen left in the deck. It’s really hard for Vili: to have anything on this flop. There are no overcards or draws that Her needs to protect against. It’s okay to slowplay.
 
-Vilizin (BB)
-
-Hero (BTN) Villain bets $30. Hero calls.
-
 Hero more information,
 
 [165] 20230612_183354.jpg
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain bets $100. Hero raises to $400. Villain calls.
 
@@ -2064,27 +1748,13 @@ rest of the time the turn card is cat... he rest of the time the turn card is 55
 
 [167] 20230612_183402.jpg
 
-‘Hero (BB)
-
-Villain1 (BTN)
-
 Heroichecks. Villain checks.
 
 [YoU Tread is right, Villain has no A-x in his check back range. You can high level of confidence that his range doesn’t have S25) EWo pair, or flush draws. Thus, the best hand in his range is K-K.
 
-Hero (BB)
-
-Villain1 (BTN)
-
-Villain cals:
-
 bet! ing range created inconsistencies in his check
 
 [168] 20230612_183407.jpg
-
-Hero (BB)
-
-Villaint (BTN)
 
 Hero bets $360. Villain folds.
 
@@ -2094,27 +1764,13 @@ Pot the Turn to Overbet the River (Part 2)
 
 a Lead the turn with a pot-sized bet when the flush completes *” follow through on the river to fold out busted flush draws.
 
-Hero (BB)
-
-Villain2 (SB)
-
-Villaint (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls-
 
 [169] 20230612_183413.jpg
 
-Hero (BB)
-
-Villain1 (BTN)
-
 Heroichecks. Villain checks.
 
 eto checks and Villain checks behind. He’s the kind of player who WWelldibet every heart draw, open-ender, gutshot, set, two pair, and top
-
-Hero (BB)
-
-Villain1 (BTN)
 
 Hero bets $60. villain calls.
 
@@ -2124,10 +1780,6 @@ wet Enna NG LEIS CU
 
 [170] 20230612_183419.jpg
 
-Hero (BB)
-
-Villain1 (BTN)
-
 Hero bets $360. Villain folds.
 
 ‘The 74 is a complete blank, which is exactly what you need. You doy: ‘want a two pair filling card like an A, K, or 10. You want a blank so you cay (Ontinue to tell a credible story unimpeded by cards that fill straights an: Might give Villain cause to sigh-call. Just overbet the river and force midde: Pair to fold.
@@ -2136,29 +1788,15 @@ Lead the Turn to Pot the River (Part 1)
 
 ‘Protip: Lead a blank turn with a half-pot bet against Villains who have vel low c-betting frequencies.
 
-Hero (BB)
-
-Villein2 (SB)
-
-Villaind (BTN)
-
 $5-S10NL: The Button raises to $30. Hero calls.
 
 The Button bets $30 and Hero Calls.
 
 [171] 20230612_183423.jpg
 
-Hero (BB)
-
-Villaind (BTN)
-
 Hero checks. Villain checks.
 
 [EvsiSay you know Villain is the type of player who checks back with ffestlovercards on low, connected boards. You don’t need to pot the turn. RESIGIVING Up against any bet with a large portion of his range. He’s the KingioPiplayer who would check back with all his Broadways because he KioWS5IRe have to fire multiple barrels to win and he's unwilling to do it.
-
-Hero (BB)
-
-Villain1 (BTN)
 
 “Hero bets $30 on the turn and the Villain calls. If your read is right ttl a 1 /2—nat cize hat hit in ~. : 2 v with ace high and overeards ifua..u-..
 
@@ -2168,10 +1806,6 @@ ve players tend to get sticky wt High 20d overcards if you bet too
 
 [172] 20230612_183429.jpg
 
-Hero (BB)
-
-Villain (BTN)
-
 Hero bets $120. Villain folds.
 
 ‘Now that you have folded out most of Villain’s overcards, the J& js Significantly more beneficial to your range than his. The only hand in Villain (Penge that could benefit from the J& is A-J (if he’s even calling with it). The (overwhelming majority of Villain’s range is A-x, 6-x, and 5-x. I’d throw out: pot-sized river bet and expect Villain to fold a huge percentage of his range.
@@ -2179,12 +1813,6 @@ Hero bets $120. Villain folds.
 Lead the Turn to Pot the River (Part 2)
 
 Pro tip: Lead the turn on a four-straight board to fold out ace high a learn more about Villain’s range.
-
-Hero (BB)
-
-Villain2 (SB)
-
-Villaint (BTN)
 
 $5-S$10NL: The Button raises to $30. Hero calls.
 
@@ -2194,15 +1822,7 @@ ADVANer
 
 [173] 20230612_183432.jpg
 
-Hero (BB)
-
-Villaind (BTN)
-
 Herolchecks. Villain checks. kind of player who is probably checking back with too because he knows you're a good, solid, sticky player who (SMEGWING Up without a fight.
-
-Hero (BB)
-
-Villaint (BTN)
 
 Hero bets $30. villain calls.
 
@@ -2212,10 +1832,6 @@ Hero bets $30. villain calls.
 
 [174] 20230612_183439.jpg
 
-Hero (BB)
-
-Villain’ (BTN)
-
 Hero bets $120. Villain folds.
 
 “The 9¢ is a fantastic card for a pot-sized bet. After folding out oye. ‘cards and ace high on the turn, Villain’s range consists of mostly 8-x, 5-, nd 4X hands. in my opinion, the 9@ makes a pot-sized bet more cred: Ss if you're trying to value town 7-x with a full house. When, in rezit, you're just trying to get bad two pair hands to fold.
@@ -2224,27 +1840,13 @@ Check-Call and Probe the Turn (Part 1)
 
 ‘A-x-x-x boards where Villain isn’t barreling turns often enough.
 
-Hero (BB)
-
-Villain2 (SB)
-
-Villain’ (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls.
 
 rely followe + ! s all of his 2 '- i archaic “c-bet and quit” strategy.
 
 [175] 20230612_183442.jpg
 
-Hero (BB)
-
-Villaint (BTN)
-
-Hero checks. Villain bets $30. Hero calls. Milain’S Tange consists of numerous random, no equity bluffs, every SEqEWO pair, and A-x hand.
-
-Hero (BB)
-
-Villaint (BTN)
+Hero checks. Villain bets $30. Hero calls. Milain’S Tange consists of numerous random, no equity bluffs, every
 
 Hérolbets $40. Villain calls.
 
@@ -2254,10 +1856,6 @@ excellent idea.
 
 [176] 20230612_183445.jpg
 
-Hero (BB)
-
-Villaind (BTN)
-
 Hero bets $100. Villain calls.
 
 “The K@ is a great card for you. It doesn’t complete any straights ang ; lmakes it less likely Villain has a better ace than you. You should bet again BAd expect to get called by numerous worse A-x combos.
@@ -2266,37 +1864,19 @@ Check-Call and Probe the Turn (Part 2)
 
 Pro tip: Probe the turn when the board changes to freeze Villain, actualiz your equity and setup river bluffs.
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villiand (BTN)
-
 $5-S10ONL: The Button raises to $30. Hero Calls.
 
 ‘ange of hands on the tes what he's doing, He's opening an apP +e) 10 Maximize hi and using an intelli rreling $ maximize his EV against your range.
 
 [177] 20230612_183449.jpg
 
-Hero (BB)
-
-Villian1 (BTN)
-
 ero checks. Villain bets $30. Hero calls. ange consists of sets, two pair, straights, flushes, overpairs, ky@ox@land Broadways with one heart.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero bets $40. Villain calls.
 
 ‘your read is right, Villain has dozens of random Broadways with one ‘heart that will surrender if you lead the turn. In my experience, if Villain has Le ad me eee bs ¥ Te 5 1 1 1 13 8 1202 1180 26 23 19.907654 ct 5 1 1 1 13 9 1244 1186 68 8 13.135117 PN 5 1 1 1 13 10 1350 1186 52 13 4.078758 PIG 4 1 1 1 14 0 20 1182 1379 100 -1 5 1 1 1 14 1 20 1182 75 100 62.051178 ‘WOU 5 1 1 1 14 2 120 1182 100 100 94.383339 beat, 5 1 1 1 14 3 236 1182 68 100 76.210541 he's 5 1 1 1 14 4 328 1182 142 100 85.991814 unlikely 5 1 1 1 14 5 481 1223 41 34 96.370361 to 5 1 1 1 14 6 536 1217 87 33 96.749245 raise 5 1 1 1 14 7 638 1209 139 34 96.934357 without 5 1 1 1 14 8 792 1216 16 21 96.978477 a 5 1 1 1 14 9 825 1205 51 31 96.804634 full 5 1 1 1 14 10 891 1205 109 31 96.804634 house. 5 1 1 1 14 11 1017 1209 41 29 97.002319 So 5 1 1 1 14 12 1074 1209 54 31 96.898956 the 5 1 1 1 14 13 1143 1213 98 36 96.574265 probe 5 1 1 1 14 14 1256 1212 143 55 96.947052 basically 4 1 1 1 15 0 474 1257 565 21 -1 5 1 1 1 15 1 474 1257 3 4 0.000000 ' 5 1 1 1 15 2 619 1267 14 11 1.575386 f 5 1 1 1 15 3 646 1269 84 9 0.000000 ittae 5 1 1 1 15 4 744 1262 83 16 0.000000 mvica 5 1 1 1 15 5 841 1264 35 14 86.496796 ta 5 1 1 1 15 6 890 1262 149 16 3.004837 cantina 4 1 1 1 16 0 20 1338 1028 101 -1 5 1 1 1 16 1 20 1338 135 101 39.244858 ‘shies 5 1 1 1 16 2 171 1338 119 101 96.008560 equity 5 1 1 1 16 3 314 1338 60 101 94.332558 and 5 1 1 1 16 4 398 1338 93 101 94.332558 gives 5 1 1 1 16 5 500 1377 73 38 96.941071 you 5 1 1 1 16 6 587 1376 18 22 96.197479 a 5 1 1 1 16 7 619 1365 113 32 96.197479 better 5 1 1 1 16 8 744 1361 86 38 97.009476 price 5 1 1 1 16 9 844 1363 34 26 96.817757 to 5 1 1 1 16 10 892 1362 156 30 96.663681 continue.
 
 [178] 20230612_183453.jpg
-
-Hero (BB)
-
-Villian (BTN)
 
 Hero bets $150. Villain calls.
 
@@ -2324,23 +1904,11 @@ tiié’and Done
 
 VPtip: Its okay to c- bet with backdoor equity and give up on unfavorable
 
-turn cards.
-
-Villain (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 Se with every air hand on ace hiah
 
 it with every air Hand on ace high boards. Yoy’
 
 [180] 20230612_183503.jpg
-
-Villain? (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $30. Villain calls.
 
@@ -2352,17 +1920,11 @@ barrel more often (e.g. J¢-104)
 
 quencies.
 
-Draw Cards Equity Fold Equity Gutshot Ke Ke Ke Qe, Qv Qe OESD Flush Draw Gutshot + FD Ke Qe,7¢ OESD + FD
-
 Villain would need to fold 33% of
 
 [181] 20230612_183505.jpg
 
 \ e best hand 9% of the time. ‘iin on needs to fold 24% of the time for Hero to break even. “How about the 96? if Hero bets $60 and gets called, the pot will be ‘5240. Hero's $60 semi-bluff would be 25% of the pot. But Hero will im- [prove to the pe pies 3% of the time. Some draws are so big that it’s ‘profitable to bet with them even if Villain never folds.
-
-Villain1 (BB)
-
-Hero (BTN)
 
 Villain checks. Hero checks.
 
@@ -2374,17 +1936,7 @@ HEREESEE Boule barreling frequency.
 
 Double Barreling
 
-Villain? (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 $5-S10NL: Hero raises to $30. The Big Blind calls. Don't worry about getting check-raised off a draw. That happens sd infrequently that it shouldn't even be a part of your thought process. Very few players actively seek to check-raise turns. As a result, you can follow through on the turn with impunity.
-
-Villain’ (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $30. Villain calls.
 
@@ -2394,17 +1946,7 @@ that didn’t hit the flop, and small pocket pairs.
 
 paves a draw. It’s good to start thinking Sd ois ae
 
-Equity Fold Equity Cards
-
-jush Draw
-
-OESD
-
 Card that gives Hero equity and allows him to represent This is a great spot to continue barreling.
-
-Villain1 (BB)
-
-Hero (BTN)
 
 Wilizinlehecks. Hero bets $60. Villain folds.
 
@@ -2414,23 +1956,15 @@ Nein has plenty of <2! pairs for Hero to target: 10-10 - g-8/e-6.
 
 the turn to avoid a very difficult river decision,
 
+Draw — Cards — Equity — Fold equity; Gutshot — J♠, J♣, J♦, 5♠, 5♥, 5♦ — 9% — 24%; OESD — 10♠, 10♣, 10♦, 6♠, 6♥, 6♦ — 17% — 14%; Flush draw — A–J♥, 4–2♥ — 20% — 9%; Gutshot + FD — J♥, 5♥ — 26% — 0%; OESD — 10♥, 6♥ — 33% — 0%
+
 [184] 20230612_183526.jpg
 
 Triple Barreling
 
-Villain? (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 $5-$10NL: Hero raises to $30. The Big Blind calls.
 
 Vis the hand with which you can most frequently empty the cis here are So many boards where it flops at least a gutshot, with two over Gafdsiand six scare cards that you can represent on the turn. Follow throug’ With this equity a huge percentage of the time and occasionally, you 2¢ Given opportunity an to represent scare cards on the river.
-
-Villain’ (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $30. Villain calls.
 
@@ -2440,25 +1974,13 @@ tac ee ive. He should c-bet ee ie
 
 “present against Villain’s range.
 
-Cards
-
-IStraight Represent on turns and rivers K4,K¥,Ke,Ke Represent on river
-
 fenof the 47 unseen turn cards improve Hero's hand. Hero is also guarequity on turns that don't pair the board. That being said, BefolSHoUldn't try to represent an ace on the turn because Villain should be GReCK@Ealling with a lot of A-x combos. Hero should only try to represent fielseelon the river (after Villain has check-folded the turn with ace high).
-
-Villain1 (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $60. Villain calls.
 
 “The ke benefits Heros rae much more than Villain’s. It’s important
 
 [186] 20230612_183543.jpg
-
-Villain’ (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $120. Villain folds.
 
@@ -2470,27 +1992,13 @@ Délayed C-Betting as a Bluff
 
 Proltip: \Check the flop with no equity bluffs and consider stabbing turns
 
-Villain1 (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 Fei lity of any kind. It’s okay ig the! arr ie boards i at 1 NO! ] tm ant The ood ha ila" informational advantage to steal a couple of ‘extra pots:
 
 [187] 20230612_183547.jpg
 
-Vilain1 (BB)
-
-Hero (BTN)
-
 Willain Checks. Hero checks. Reasons for checking...
 
 equity of any kind. Héfolhas better hands with which to bluff. Willains tend to get sticky with A-x and 10-x on flops like this. WillainWon't stab the turn with air. Willainthas to check-fold 8-8 - 2-2/9-8s - 4-3s on the turn.
-
-Villain’ (BB)
-
-Hero (BTN)
 
 Mim not 2 huge fan af delayed c betting If Villain is folding too much Ht my hand on the turn Mans —_»
 
@@ -2500,23 +2008,9 @@ rong, there are Bp STeEcuing Is okay.
 
 Giving Up
 
-Pro tip: Pick your battles.
-
-Villain3 (BB)
-
-Hero (C0)
-
-Villain2 (SB)
-
-Villaint (BTN)
-
 $5-S10NL: Hero raises to $30. The Button calls.
 
 ‘Again, never forget the difference between a big blind defense rang nd @ button flatting range. The button has a smaller range with a highe (oncentration of pocket pairs and suited connectors. Range advantages (change dramatically on some boards.
-
-Hero (CO)
-
-Villaind (BTN)
 
 Hero checks. The Button bets $35. Hero folds.
 
@@ -2530,19 +2024,9 @@ ess a ton of chips go into the pot. Ta ap, Isn't going to
 
 Check-Calling Once
 
-turns.
-
-Hero (BB)
-
-Villian2 (SB) Villian1 (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls.
 
 Check-calling with ace high works best against late position opene: \Who c-bet too much on dry boards. You have to force Villain to fire a secfond barrel on blank turns to win the pot. Most of the time he won't. If ite turn goes check-check, you'll win more often than not.
-
-Hero (BB)
-
-Villian’ (BTN)
 
 Hero checks. Villain bets $30. Hero calls.
 
@@ -2552,17 +2036,9 @@ him further options. Hero needs to stay tough.
 
 [191] 20230612_183614.jpg
 
-‘Hero (BB)
-
-Villian’ (BTN)
-
 Hero checks. Villain checks.
 
-Wou'll See this a lot in smaller games. Villain will have a really high c-betting percentage followed by a very low turn barreling percentage on dry beardsNHe’s Way off-balance and easy to exploit. Check-cal| a little wider ed force him to play poker.
-
-Hero (BB)
-
-Villian (BTN)
+Wou'll See this a lot in smaller games. Villain will have a really high c-betting percentage followed by a very low turn barreling percentage on dry beardsNHe’s Way off-balance and easy to exploit. Check-cal| a little wider
 
 Hero checks. Villain checks.
 
@@ -2572,19 +2048,9 @@ Pires no nocd for Hava i had to 2 Bt. He has en : pI ae ea a oe SS peroricy ‘h
 
 Check-Calling Twice
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 $5-$40NL: The Button raises to $30. Hero calls.
 
 There are certain boards where Villain has tons of OESD’s, gutshc:; overcards, and backdoor flush draws. Villain will usually fire twice and ov up on blank rivers after realizing that most of his range is air and most: Hero's range is middle pair or better. It’s important to know how to mane.ver through these situations.
-
-Hero (BB)
-
-Villian’ (BTN)
 
 Hero checks. Villain bets $30. Hero calls.
 
@@ -2592,15 +2058,7 @@ Hero checks. Villain bets $30. Hero calls.
 
 [193] 20230612_183623.jpg
 
-Hero (BB)
-
-Villian1 (BTN)
-
 Hero checks. Villain bets $60. Hero calls. Hero should check-call the turn assuming that Villain will fire twice WaHA2K) A=Q, K-Q, K-9, Q-9, Q-8, 9-8, and diamonds.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero checks. Villain checks.
 
@@ -2610,37 +2068,17 @@ the pot.
 
 [194] 20230612_183630.jpg
 
-Calling Down
-
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls.
 
 frequently see Villain semi-bluff the flop, semi-bluff the turn = then forget to consider his own range on the river. His range is mostly busted draws. The river is an overcard that he can realistically represen: He'll see an opportunity to win the pot and end up bluffing with way % many combos.
-
-Hero (BB)
-
-Villiant (BTN)
 
 Hero checks. Villain bets $30. Hero calls.
 
 [195] 20230612_183641.jpg
 
-Foro (88)
-
-Villian1 (BTN)
-
 Hero checks. Villain bets $60. Hero calls.
 
 This is one Of the best turn cards in the deck for Hero. He should ex- Pavillain to continue to fire with most of his draws. Hero should check- @lendigive Villain an opportunity to overbluff on blank rivers.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero checks. Villain bets $120. Hero calls.
 
@@ -2656,37 +2094,17 @@ Wi... eaace. He ade to check-call this river.
 
 Showdown Value Out of Position
 
-Villains.
-
-Villain3 (BB)
-
-Hero (C0) Villain2 (SB) Villain1 (BTN)
-
 $5-$10NL: Hero raises to $30. The Button calls. When you're out of position it’s important to check with weak top pais and middle pairs, to protect weaker hands in your range. Most players jus bet everything of any value, so when they check, they’re very capped anc easy to exploit. Don’t be that guy.
-
-Hero (CO)
-
-Villaind (BTN)
 
 Hero checks. Villain bets $35. Hero calls
 
 [197] 20230612_183653.jpg
 
-Hero (CO)
-
-Villaint (BTN)
-
 Hero checks. Villain checks.
 
 would be marginal against most players. The RUREWEISIRHaE Most Of them check-back the turn too liberally. They (neuuct their ranges in a way that makes it so they either have 10-x or
 
-sion most rivers.
-
-Hero (CO)
-
-Villain1 (BTN)
-
-Sie almost every hand in Villain’s range Hero bets $70. villain calls. 50) vitan as pen ty of Torggapes that will call. Hero should bet and
+Sie almost every hand in Villain’s range 50) vitan as pen ty of Torggapes that will call. Hero should bet and
 
 Pect to often get called by worse.
 
@@ -2696,33 +2114,15 @@ Semi-Bluffing Out of Position
 
 Pro tip: Keep your bluffing range in check when draws brick.
 
-Villain (BB)
-
-Hero (CO) Viliain2 (SB) Villaint (BTN)
-
-$5-$10NL: Hero raises to $30. The Button calls. There are times that Hero has to be specific about the combos he chooses to bluff with.
-
-Hero (CO)
-
-Villain’ (BTN)
-
-Hero bets $35. Villain calls.
+$5-$10NL: Hero raises to $30. The Button calls. There are times that Hero has to be specific about the combos he
 
 Put Pressure on Jy ag Well, He should plan on firing almost eY put pressure on J-x as well,
 
 [199] 20230612_183703.jpg
 
-Hero (CO)
-
-Villaind (BTN)
-
 Hero bets $70. Villain calls.
 
 IUUENSSHAUGHISGUIEV RHEE HIS Semi-bluft is profitable even f villain WWerfolds Hero needs to keep firing with big equity hands to balance for feGMESIHE Wants to value-bet. If he never bluffed, Villain wouldn have ioincentive to defend.
-
-Hero (CO)
-
-Villain1 (BTN)
 
 Hero checks. Villain checks.
 
@@ -2746,27 +2146,13 @@ to go broke with one pair,
 
 [201] 20230612_183712.jpg
 
-Hero (BB)
-
-Villan2 (SB)
-
-Villian1 (BTN)
-
 §5=S70NL: The Button raises to $30. Hero calls. here Gre! tWo Components needed to check-raise for value. Hero has ohave a hand that is way ahead of Villain’s range. Villain has to have sevalWeaker hands that will be inclined to call the check-raise. Without that
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Sion een faw value combos in his ranae Villain
 
 See ee a fa value combos in his range. Villai
 
 [202] 20230612_183718.jpg
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero bets $120. Villain calls.
 
@@ -2776,31 +2162,13 @@ under your bed? Hero might have lost to K¥-Q¥Y, Q¥-8Y, 8-70 or 10-19
 
 But he’s also much more likely to be called by Q-J, Q-10, Q-9, J-10, J-85, J-7s, 10-8s, and 9-8. Keep betting.
 
-Hero (BB)
-
-Villiand (BTN)
-
-Hero bets $240. Villain calls.
-
 and try to get called by oun Never folding two pair. He could aise = nee © be made in the haat hands more often. The final de¢' to be made in the moment.
 
 [203] 20230612_183723.jpg
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian (BTN)
-
 S52S70NL: The Button raises to $30. Hero calls.
 
 ‘Check-call flops and turns with nut flush draws that can win at show- (town. It's easier to induce Villain to value-bet and possibly call a check- \se with worse on the river. Check-raise flops and turns with draws that lave no showdown value. It’s easier to fire blank rivers when you can get
-
-better draws to fold.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 ‘Hero checks. Villain bate $46 ». Hero r alses to $90. Villain calls
 
@@ -2810,37 +2178,17 @@ Bo rep any A, K, oF ©:
 
 [204] 20230612_183727.jpg
 
-Hero (BB)
-
-Villiant (BTN)
-
 Hero bets $120. Villain calls.
 
 Hero should keep firing after picking up equity on the turn. IF Villain js ¢-betting too much he's going to struggle to hang on with 10-10, 9-9 8-8, 7-7, 5-5, A-4, K-4s, 5-4s, 4-3s, 3-3, A-2, etc. Hero can also fold out better flush draws on blank rivers.
-
-Hero (BB)
-
-Villiant (BTN) Hero checks. Villain checks.
 
 Ws. Checkina ic definitely
 
 [205] 20230612_183732.jpg
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 Button raises to $30. Hero calls.
 
 Many Players make the mistake of only check-raising flush draws on nothing to bluff with when the flush completes. It’s litportant to occasionally check-raise a straight draw intending to repre-
-
-Sent a flush draw.
-
-Hero (BB)
-
-Villian? (BTN)
 
 his (is the perfect Hemme 2° 2 Straight draw. Villain rarely
 
@@ -2848,17 +2196,9 @@ his (is the perfect Hemme 2° 2 Straight draw. Villain rarely
 
 [206] 20230612_183736.jpg
 
-Hero (BR)
-
-Villian1 (BTN)
-
 Hero bets $120. Villain calls.
 
 Hero should keep firing after picking up equity. He can represent sets 8-6s, and hearts. He can also get paid on J, 6, or club rivers. Villain will face @ tough decision on many rivers.
-
-Hero (BB)
-
-Villian (BTN)
 
 Hero bets $240. Villain folds.
 
@@ -2866,21 +2206,9 @@ he makes a flush.
 
 [207] 20230612_183743.jpg
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 S5=S70NL: The Button raises to $30. Hero calls.
 
 WOEMeINBaCKdoor flush draws are created equal. It’s usually best to teckel With two overcards, check-fold two under cards, and check- Wise GUitshots. Check-raising is best when you can represent overcards
-
-and front door draws.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 “Ths ica unig situation. Hero dosnt quite have enough equity to [Bheciectt it checking con be o wool option against late position
 
@@ -2898,15 +2226,7 @@ At face value, it looks like Hero just flopped a gutshot and a bac, cam flush dr
 
 [209] 20230612_183755.jpg
 
-Hero (BB)
-
-Villian (BTN)
-
-fiero bets $120. Villain calls. up a ton of equity. Sure, he'll occasionally run into a hand [REIQZONO=1'0) or Q-7s but most of the time the queen weakens the abfoltelWValue of 10-x.
-
-Hero (BB)
-
-Villian1 (BTN)
+fiero bets $120. Villain calls. up a ton of equity. Sure, he'll occasionally run into a hand [REIQZONO=1'0) or Q-7s but most of the time the queen weakens the ab-
 
 Peaehina 229% af tha natie tha L--. 1. i zat ranae is 10-x and he miaht nat call a iae~~
 
@@ -2944,12 +2264,6 @@ GalingCHECK*Raises with Two Pair
 
 Fo tip: Don’t re-raise with two pair if it folds out everything worse.
 
-Villain’ (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 $5-$1 ONL: Hero raises to $30. The Big Blind calls.
 
 HS falds out Villain’s bluffs mate cri ng olds out Villain’s bluffs, gets stacks in against
@@ -2958,27 +2272,15 @@ See a turn card?
 
 [212] 20230612_183811.jpg
 
-Villain? (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $30. Villain raises to $90. Hero calls,
 
 (Hero is way ahead of Villain’s range but he should just call the checkise) S4betting the flop will just fold out Villain’s weaker hands and get §tSEKS in against combo draws and bottom set. Hero can call the flop anc Comfortably fold diamond turns.
-
-Villain (BB)
-
-Hero (BTN)
 
 Villain bets $120. Hero calls.
 
 a straight or a set. Don't tell al your friends you got coolered.
 
 [213] 20230612_183814.jpg
-
-‘ile? (BB)
-
-Hero (BTN)
 
 Villain bets $240. Hero folds.
 
@@ -2988,10 +2290,6 @@ fiiig Check-Raises with Overpairs
 
 Poti: Don't forget that fish often check-raise with one pair hands.
 
-Villaint (BB)
-
-Villain2 (SB) Hero (BTN)
-
 ., < to $30. The Big Blind calls.
 
 Peete 2 check-raise on a co-ordinated board can be a very complex
@@ -3000,15 +2298,9 @@ BS otting Then compare that to the estimated equity you have
 
 [214] 20230612_183824.jpg
 
-Hero (BTN)
-
 [Poona egy 0 continue, Compare that to Villar’s value range
 
-Suits Equity Combos Hands
-
 OBVIGUSIY) Hero isn’t doing very well against this range of hands. Nov eliasioldetermine if Villain would ever check-raise with worse. If so, ha fmucheguity does he have against those hands?
-
-Hands |Combos | Suits Equity
 
 [215] 20230612_183827.jpg
 
@@ -3018,10 +2310,6 @@ Ne ye if Villain is check-raisin i is Alternatively, Hero should
 
 frm eauty which = also enough to call getting 2-to-1 odds. Essentially, ye should <i if he has any reason at all to believe that Villain would check-raise with worse.
 
-Villain1 (BB)
-
-Hero (BTN)
-
 Villain bets $120. Hero folds.
 
 Do the same on the turn. Calculate pot odds, estimate Villain’s range and find'the breakeven point. Clearly this turn card shattered Hero's equity. All Weleombos of 10-9 improved to a straight and Hero can't expect Villain to ontinue with 9-9 and A-8. Hero should fold and move on to the next hand.
@@ -3030,27 +2318,15 @@ Do the same on the turn. Calculate pot odds, estimate Villain’s range and find
 
 Calling Check-Raises with Top Pair
 
-Villain’ (BB)
-
-Villain2 (SB) Hero (BTN)
-
 $5-$10NL: Hero raises to $30. The Big Blind calls.
 
 Li perfect world, you would just be able to value-bet top pair with. out any interference. Unfortunately, dealing with check-raises can be aw}. ward, especially against unknown opponents. My hope is that this hand history will clarify some of the confusion.
-
-Villain’ (BB)
-
-Hero (BTN)
 
 math and range analysis.
 
 [217] 20230612_183839.jpg
 
 ing ith a set. Hero has 7% equity against that range. Mas equity 90S up to 19% if Villain check-raises all his straight flush 5" eM The equity goes up to 33% if Villain adds 54-44, [Peas and 5¢-40. That's the breakeven point. As you can see, it doesn’t [fae much for Hero to continue when he has the AY in his hand.
-
-Villaint (BB)
-
-Hero (BTN)
 
 Villain bets $120. Hero calls.
 
@@ -3062,10 +2338,6 @@ Profitable.
 
 [218] 20230612_183847.jpg
 
-Villain? (BB)
-
-Hero (BTN)
-
 Villain bets $240. Hero folds.
 
 When the river bricks, it’s just a matter of pot odds and combos again Hero is getting 3-to-1 odds. So if Villain has three flush combos, he Needs
@@ -3074,17 +2346,9 @@ When the river bricks, it’s just a matter of pot odds and combos again Hero is
 
 [ir hand y ts all In equity,
 
-Vilain? (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $30. Villain raises to $90. Hero calls.
 
 Hero c-bet with a straight draw and nut flush draw and got checkraised. His hand doesn’t have enough equity to profitably get stacks in against J-10, 10-6s, and 6-5s. He's getting 2-to-1 odds and it’s 4-to-1 against him improving on the turn. The good news is that Villain will usually check-call at least one bet with a set or a straight when a flush completes on the turn. Villain will also get stacks in if he ever check-raises hearts and ets there. Hero should call and reevaluate on the turn.
-
-Villain’ (BB)
-
-Hero (BTN)
 
 Villain checks. Hero bets § 120. Villain calls,
 
@@ -3092,21 +2356,11 @@ Villain checks. Hero bets § 120. Villain calls,
 
 and Hero is offering 3-to-1, This is perfect sizing.
 
-villain? (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $240. Villain folds.
 
 Calling Check-Raises with Straight Draws
 
 Pro tip: Consider the size of future bets.
-
-Villain’ (BB)
-
-Villain2 (SB)
-
-Hero (BTN)
 
 $5-S$10NL: Hero raises to $30. The Big Blind calls.
 
@@ -3118,10 +2372,6 @@ What price are you getting? Are you drawing to the nuts? Will you get paid? Will
 
 Here's one of the more interesting spots.
 
-Villain1 (BB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $30. Villain raises to $90. Hero calls.
 
 Hero c-bet with a double gutshot and got check-raised. He's getting 2-to-1 odds and it’s 4-to-1 against him improving on the turn. The good news is that he'll almost always be able to get stacks in if he makes his arid. Less disguised draws will often struggle to maximize value and that
@@ -3130,17 +2380,9 @@ must be considered.
 
 [222] 20230612_183908.jpg
 
-Villain’ (BB)
-
-Hero (BTN)
-
 Villain bets $120. Hero raises to $880 all-in. Villain calls.
 
 Hero made a very disguised draw against a very strong range of hands, This is one of the rare situations where he should raise the turn instead of waiting until the river. Any 9, 8, 7, 6, 5, 4, 3, or spade will kill his action on the river. He should shove and expect to get paid by two pair or better.
-
-Villain1 (BB)
-
-Hero (BTN)
 
 [223] 20230612_183914.jpg
 
@@ -3156,19 +2398,9 @@ Floating to Stab
 
 Pro tip: Float against people who c-bet and quit too Often,
 
-Villain3 (BB)
-
-Villain (CO)
-
-Villain2 (SB) Hero (BTN)
-
 $5-$10NL: The Cutoff raises to $30. Hero calls.
 
 As discussed earlier, very few players double barrel at a high enough frequency on ace high boards. There’s a huge gap between their c-betting frequency and turn betting frequency on static textures. You should seek to exploit this by floating in these spots.
-
-Villain (CO)
-
-Hero (BTN)
 
 Villain checks. Hero bets $30. Villain calls.
 
@@ -3176,25 +2408,11 @@ most turns and evaluate rivers.
 
 [225] 20230612_183926.jpg
 
-Villain’ (CO)
-
-Hero (BTN)
-
 villain checks. Hero bets $70. Villain folds.
 
 I's almost impossible for Villain to check enough A-x to balance for githe useless Broadway hands in his c-betting range. Hero also picked up four more outs. Villain only needs to fold 12% of the time for Hero to break even, and that’s assuming Hero will never bet the river. Hero can make two very disguised straights and that will allow him to overbet against certain opponents. Betting is very clearly the play.
 
-Floating to Bluff-Raise
-
 Pro tip: Bluff raise when you have numerous credible value combos.
-
-Villain3 (BB)
-
-Villaint (CO)
-
-Villain2 (SB)
-
-Hero (BTN)
 
 $5-$10NL: The Cutorf ralses to $30. Hero calls.
 
@@ -3204,15 +2422,9 @@ range is very strong, and there are very few combos for you to bluff with.
 
 the nuts, you must not be afraid to pull the trigger.
 
-Villain (CO)
-
-Hero (BTN)
-
 Villain bets $30. Hero calls.
 
 Villain is probably c-betting with numerous Broadway hands that have no incentive to keep betting on any 8, 7, 6, 5, 4, 3, or 2. Hero also has two overcards and a backdoor flush draw. He should call and look to stab or bluff-raise on credible turn cards.
-
-Villain1 (CO) Hero (BTN)
 
 Villain bets $70. Hero raises to $225. Villain folds.
 
@@ -3224,19 +2436,9 @@ floating to Check-Raise
 
 no tip: I's okay to float out of position if you have equity and a wellthought-out plan,
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls.
 
 Check-calling with two overcards and a backdoor flush draw can be a profitable play against late position openers who c-bet too much. Your goal is to make a pair that Villain thinks he can represent. You can also stab the river if Villain checks the turn, check-raise the turn if you pickup a draw or check-raise the river to represent a flush.
-
-Hero (BB)
-
-Villiant (BTN)
 
 Hero checks. Villain bets $30. Hero calls,
 
@@ -3246,11 +2448,7 @@ in one way or another.
 
 [228] 20230612_185236.jpg
 
-Cards QYV,Q4,06, JY, J& Je Draw Top Pair OESD OESD + FD Gutshot Gutshot + FD Clubs to Rep ‘Chadkraing the turn with reer spades is 3 very powerful play when Hero can rep front door clubs. We'll soon see why.
-
-Hero (BB)
-
-Villiant (BTN)
+‘Chadkraing the turn with reer spades is 3 very powerful play when Hero can rep front door clubs. We'll soon see why.
 
 Hero checks. Villain bets kactiar raises to $180. Villain calls. Reasons for check-raising the turn...
 
@@ -3260,6 +2458,8 @@ Hero's range is nearly uncapped. The only hand Hero can’t rep is K-K,
 
 spades, 5-4s, Q-J, Q-10, J-10, A-5, and A-4. Villain’s range is vulnerable.
 
+Draw — Cards; Top pair — Q♥, Q♣, Q♦, J♥, J♣, J♦; OESD — 10♥, 10♣, 10♦; OESD + FD — 10♠; Gutshot — K♥, K♣, K♦, 8♥, 8♣, 8♠; Gutshot + FD — K♠, 8♠; Clubs to rep — A♣, 7♣, 6♣, 5♣, 4♣, 2♣
+
 [229] 20230612_185239.jpg
 
 forced to fold the turn. clubs. spades, a S will be forced to fold blank rivers, Thin value-bets like Q-Q, J-J, 10-10, and A-9 may be reluctant to call the turn. K-K, 9-9, 3-3, 2-2, K-9, A-A, A-K, K-Q, K-J, and K-10 will have to fold club rivers. The same hands will have little cause to fold spade rivers. Pot equity + fold equity is on Hero's side, Hero has about 27% equity against Villain’s one pair hands. Hero is risking $180 to win $180 on the turn. Hero only needs 36% fold equity to breakeven on the turn.
@@ -3267,10 +2467,6 @@ forced to fold the turn. clubs. spades, a S will be forced to fold blank rivers,
 This is before river bluffs and value-bets are considered.
 
 The real number is even less than 36%.
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero bets $760. Villain folds. Even a tough Villain with great hand-reading skills would have trouble Calling this river. There are very few hands for Hero to bluff with after check-calling the flop. Even worse, the vast majority of Heroes would never think to take this line with spades in the first place. Now what do you
 
@@ -3284,19 +2480,9 @@ Floating to Overbet
 
 Pro tip: It’s best to overbet rivers against severely capped ran ges
 
-Hero (BB)
-
-Villian2 (SB)
-
-Villian1 (BTN)
-
 $5-$10NL: The Button raises to $30. Hero calls.
 
 Here's a line that’s been gaining popularity.
-
-Hero (BB)
-
-Villiant (BTN)
 
 Hero checks. Villain bets $30. Hero calls.
 
@@ -3318,15 +2504,7 @@ Clubs to Rep
 
 The overbet usually comes into play after the turn goes check-check.
 
-Hero (BB)
-
-Villian1 (BTN)
-
 Hero checks. Villain checks. Here’s where the magic happens...
-
-Hero (BB)
-
-Villian1 (BTN)
 
 Hero bets $240. Villain folds. Reasons for overbetting...
 
@@ -3370,10 +2548,6 @@ This is a basic evolutionary principle. Mammals have such a strong tendency to s
 
 Pro tip: Check to induce on ace high turns when 3-betting out of position.
 
-Villain2 (BB)
-
-Hero (SB)
-
 $5-$10ONL: The Button raises to $30. Hero raises to $100. The Button calls
 
 3-betting out of position can get you in a lot of trouble on dynamic boards, especially if you're playing 200bb+ err ‘Villain knows how to
@@ -3384,13 +2558,9 @@ against him. This line doesn’t come up often but when it does it’s pure gold
 
 [234] 20230612_185307.jpg
 
-Hero (SB)
-
 Hero bets $100. Villain calls.
 
 A competent Villain will defend against 3-bets in position with all pocket pairs, suited connectors, suited gappers, and suited aces when stacks are over 200bb. He doesn’t have to flop a set very often to break even, Villain can also put a tremendous amount of pressure on Hero if he isn’t 3-betting enough suited hands. His range will be capped at one pair on many boards and that is a huge liability.
-
-Hero (SB)
 
 Hero checks. Villain bets $300. Hero calls.
 
@@ -3410,17 +2580,9 @@ a hand like A@-K@. It prevents you from having to make , tough decisioy, if Vill
 
 [237] 20230612_185327.jpg
 
-ero (8B)
-
-Villian2 (SB)
-
 Villain checks. Hero bets $135. Villain calls.
 
 This is one of the rare situations where Hero should bet for thin value and protection. The number of combos that beat Hero is very small in comparison to the number of Broadway hands he should protect against. At most, Villain has 9-9, 4-4, 3-3, 10-10, and A-9 - 9-7s. That’s 35 combos ahead of Hero. Compare that to as many as 144 Broadway combos that have about 24% equity against Hero’s hand. There are also worse hands like 7-7,6-6, 5-5, 5-4s, and 6-5s that have to call at least one bet.
-
-Hero (BB)
-
-Villian2 (SB)
 
 Villain checks. Hero checks.
 
@@ -3431,10 +2593,6 @@ check and evaluate the river.
 Dact-Flop Play
 
 [238] 20230612_185333.jpg
-
-Hero (BB)
-
-Villian2 (SB)
 
 Villain bets $260. Hero folds.
 
@@ -3468,25 +2626,13 @@ is required to win.
 
 Squeezing from the Small Blind
 
-Villain3 (BB)
-
-Villain’ (coy Hero (SB) Villain2 (BTN)
-
 $5-$10NL: The Cutoff raises to $30. The Button calls. Herg raises to $120. The Cutoff folds. The Button calls.
 
 By now you should know what an optimal opening range looks like from the cutoff You should also know what an optimal flatting range looks i from the button. Most importantly, you should be well on your way to de. ciphering how people deviate from optimal ranges. They usually open too wide and flat too much. Therefore you can 3-bet A-Q for pure value.
 
-Hero (SB)
-
-Villain2 (BTN)
-
-Hero bets $135. Villain calls.
-
 ea inst a 94 Pairs, all the Suited ¢ S probably calling the sqeeze wit ads He
 
 [241] 20230612_185349.jpg
-
-Hero (SB) Villain2 (BTN)
 
 Hero bets $345. Villain folds.
 
@@ -3498,14 +2644,6 @@ of fold equity by betting this turn.
 
 Pro tip: Check small suited aces to protect big pairs on ace high boards.
 
-Villain3 (BB)
-
-Villain (CO)
-
-Villain2 (SB)
-
-Hero (BTN)
-
 $5-$ 1 ON The Cutoff raises to $30. Hero raises to $100. The
 
 Scenic molar in 3-bet pots. Villain has a lot more infor-
@@ -3514,19 +2652,9 @@ Cutoff calls.
 
 [242] 20230612_185354.jpg
 
-boards.
-
-Villain (CO)
-
-Hero (BTN)
-
 Villain checks. Hero checks.
 
 Hero can't get a better hand to fold. It will be difficult for him to get called by worse often enough to value-bet. He should check and try to get to showdown. He should also make it a point to check A-2s, A-3s, and A-5s in case Villain decides to stab turns aggressively.
-
-Villaint (CO)
-
-Hero (BTN)
 
 Villain checks. Hero bets $100. Villain calls. ish aie whith ay turn cards that bring Pe ni
 
@@ -3534,23 +2662,11 @@ draws on the turn.
 
 [243] 20230612_185357.jpg
 
-Villaint (CO)
-
-Hero (BTN)
-
 Villain bets $200. Hero folds. Villain “never” check-calls the turn and lead the river as a bluff on an xe high board. Villain is always very nutted when he takes this line.
 
 Calling 3-Bets Out of Position
 
 Pro tip: One of the worst things you can do is defend against too many
-
-3-bets out of position.
-
-Villain1 (BB)
-
-Hero (CO)
-
-Villain2 (SB)
 
 $5-$10NL: Hero raises to $30. The Button raises to $100. Hero calls
 
@@ -3560,19 +2676,13 @@ aan when to release. It all comes down to combos and pot odds
 
 [244] 20230612_185403.jpg
 
-Hero (CO)
-
 Hero checks. Villain bets $100. Hero calls.
 
 I'm never folding this hand to one bet. End of discussion.
 
-Hero (CO)
-
 Hero checks. Villain bets $200. Hero calls. Blanks turns are difficult, especially when no backdoor flush draw ' available. Does Villain ever mix it up with hands like A-5s, A-3s, 7-65: 6-53? Does he ever fire a second bullet with overcards? If Villain has 4) air at all in his range, Hero should call getting 3-to-1.
 
 [245] 20230612_185406.jpg
-
-Hero (CO)
 
 Hero checks. Villain bets $800 all-in. Hero tanks.
 
@@ -3598,8 +2708,6 @@ vl : pial oh aaa Peinboe Hero needs to right 33% of the Sted eden. q he works, V
 
 Consider the hands available for Villain to bluff with...
 
-Suits Hands Combos
-
 much more reasonable. Hero should probably call in this scenario-
 
 Yi hit
@@ -3608,29 +2716,13 @@ Yi hit
 
 ating Out of Position
 
-Tilein3 (BB)
-
-Hero (CO)
-
-Villain2 (SB)
-
-Villain1 (BTN)
-
 $5-$10NL: Hero raises to $30. The Button raises to $100. Hero reraises to $250. The Button calls. Hero should 4-bet A-K. Calling the 3-bet allows Villain to realize most of his equity. It also makes it difficult for Hero to realize all of his equity. He's going to have to check-fold the flop about half the time. Why sacrifice equity by calling the 4-bet when he can generate fold equity by 5-betting?
-
-Hero (CO)
-
-Villain1 (BTN)
 
 Hero checks. Villain checks. bag reys rarery tee Pr tha iad ny vow tr amy and
 
 susiiie: cai and plan on folding to any hag
 
 [248] 20230612_185430.jpg
-
-Hero (CO)
-
-Villaind (BTN)
 
 Hero checks. Villain bets $250. Hero folds.
 
@@ -3640,12 +2732,6 @@ Calling 3-Bets in Position
 
 Pro tip: Resist the urge to raise with a draw on a board where you slowplay a set.
 
-Villain2 (BB)
-
-Villaint (SB)
-
-Hero (BTN)
-
 $5-$10NL: Hero raises to $30. The Small Blind raises to $100. Hero calls.
 
 As discussed earlier, defending against a 3-bet in position is mandato'y with all the pairs, suited connectors, suited one-gappers, and suited ace when stacks are 200bb. Hero doesn’t have to flop a monster very oft
@@ -3654,19 +2740,11 @@ As discussed earlier, defending against a 3-bet in position is mandato'y with al
 
 Hero will win all the big ones. This effect is magnified if Villain isn’t 3-betting with enough suited aces and suited connectors,
 
-Villain1 (SB)
-
-Hero (BTN)
-
 Villain bets $100. Hero calls.
 
 used to raise in spots like this when | first started playing deep stack NL. | could get overcards to fold and still have equity against overpairs. It was profitable. But later | realized that calling is a way better option.
 
 Why raise with a set when | could allow Villain to keep bluffing and/ or value-betting with worse hands? Why semi-bluff the flop when | have little incentive to raise with a set? Why not mimic the action | would take with a set and add credibility to my line?
-
-Villain’ (SB)
-
-Hero (BTN)
 
 Villain bets $200. Hero calls.
 
@@ -3677,10 +2755,6 @@ This is another spot isa used to raise way too much. | could aot
 [250] 20230612_185441.jpg
 
 option for the same reasons as in the previous example.
-
-Villain’ (SB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $1,600. Villain folds.
 
@@ -3698,17 +2772,7 @@ Set-Mining with Mischievous Intentions
 
 pro tip: Punish greedy Villains for not checking A-x enough in 3-bet pots.
 
-Villain3 (BB) Hero (MP)
-
-Villain2 (SB)
-
-Villian (BTN)
-
 §5-$10NL: Hero raises to $30. The Small Blind raises to $100. Hero calls. Calling a 3-bet with 7¥-7& is super-standard. Hero will flop a set or better 12% of the time. He'll be able to peel dry flops quite a bit. And every once in awhile he'll have an opportunity to put Villain to the test.
-
-Hero (MP)
-
-Villain2 (SB)
 
 Villain checks. Hero bets $100. Villain calls. Most Villains never think to check A-x in this spot. Even ans who Eidansion na 5 1 1 1 22 3 397 2141 34 29 74.859985 to 5 1 1 1 22 4 443 2138 148 58 79.300240 balance 5 1 1 1 22 5 610 2139 84 33 72.231079 their 5 1 1 1 22 6 714 2145 114 33 54.951328 ranges 5 1 1 1 22 7 848 2132 94 64 84.964211 rarely 5 1 1 1 22 8 960 2127 99 69 94.146080 check 5 1 1 1 22 9 1081 2127 60 69 37.270565 Avs 5 1 1 1 22 10 1172 2120 65 76 10.010841 Dl 5 1 1 1 22 11 1254 2118 88 78 27.204422 TN 4 1 1 1 23 0 47 2245 1297 99 -1 5 1 1 1 23 1 47 2283 61 36 96.151787 talk 5 1 1 1 23 2 120 2260 138 72 9.861900 eA 5 1 1 1 23 3 271 2245 29 99 2.186981 of 5 1 1 1 23 4 461 2260 142 56 80.627197 balance 5 1 1 1 23 5 617 2260 84 25 95.845299 their 5 1 1 1 23 6 720 2260 115 31 93.233093 ranges 5 1 1 1 23 7 855 2260 93 27 35.506447 rarety 5 1 1 1 23 8 967 2260 95 16 10.637360 crrecn 5 1 1 1 23 9 1077 2260 53 66 28.267220 Sw 5 1 1 1 23 10 1171 2260 80 69 6.732300 sr 5 1 1 1 23 11 1261 2260 83 56 26.120522 i 4 1 1 1 24 0 43 2298 1023 74 -1 5 1 1 1 24 1 43 2342 111 26 48.020687 — 5 1 1 1 24 2 351 2367 2 1 56.024860 7 5 1 1 1 24 3 426 2308 73 34 96.996368 able 5 1 1 1 24 4 514 2310 70 38 96.919312 but, 5 1 1 1 24 5 600 2320 27 23 93.309418 in 5 1 1 1 24 6 640 2310 58 32 93.309418 the 5 1 1 1 24 7 712 2298 158 74 96.635941 moment, 5 1 1 1 24 8 884 2303 76 39 96.423981 they 5 1 1 1 24 9 973 2305 93 26 96.939308 never 4 1 1 1 25 0 35 2441 736 61 -1 5 1 1 1 25 1 35 2443 111 43 96.891655 simple 5 1 1 1 25 2 161 2448 118 36 96.971046 human 5 1 1 1 25 3 296 2457 126 33 96.688370 nature; 5 1 1 1 25 4 439 2451 120 43 95.201614 people 5 1 1 1 25 5 574 2458 54 24 96.914192 are 5 1 1 1 25 6 642 2441 129 61 89.050713 greedy. 4 1 1 1 26 0 40 2566 675 30 -1 5 1 1 1 26 1 40 2566 183 9 7.262161 sr
 
@@ -3722,10 +2786,6 @@ Then he has about 30 combos of K-K, Q-Q, sli 0, sila ana iad He also has about 2
 
 Most players check this flop with 7¥-7& and pray they have some sort of showdown value. They're afraid of getting called by A-x, K-K, Q-9, and J-x. So what if Villain calls? He's just building a bigger pot for Hero to win on turns and rivers.
 
-Hero (MP)
-
-Villain2 (SB)
-
 Villain checks. Hero bets $200. Villain calls.
 
 Hero will get a lot of folds on this turn card. Villain has to check-fold all of his K-K, Q-Q, and J-x combos that don’t have a diamond in them. It’s important to note that the jack on this flop is a diamond. It would be a totally different situation if the jack was offsuit and the four was a diamond. At that point, Hero would have to worry about Villain having flush combos.
@@ -3733,10 +2793,6 @@ Hero will get a lot of folds on this turn card. Villain has to check-fold all of
 Now think about the composition of Villain‘s check-calling range on the turn. He has a bunch of weak Broadway hands that probably have a diamond in them. This is one of the rare situations where Hero is actually hoping for a blank river card that will allow him to give Villain the bad pte
 
 [253] 20230612_185458.jpg
-
-Hero (MP)
-
-Villain2 (SB)
 
 Villain checks. Hero bets $400. Villain folds.
 
@@ -3748,31 +2804,15 @@ Squeezing from the Button
 
 Pro tip: Squeeze with suited Broadways in position.
 
-Villain1 (MP) Villain4 (BB)
-
-Villain2 (CO)
-
-Villian2 (SB)
-
-Hero (BTN)
-
 03 - Post-Flop Play
 
 [254] 20230612_185504.jpg
 
 $120. MP folds. The Cutoff calls. Hero can typically 3-bet suited Broadway han Mpunity in this cially if he , Hero. The cutoff’s range is always super-cappe in this spot. Hero's hang also plays well in position with initiative.
 
-Villain2 (CO)
-
-Hero (BTN)
-
 Villain checks. Hero bets $140. Villain calls.
 
 Hero should assume that Villain is defending against the squeeze too often. Villain’s range is almost always 10-10 - 2-2/K-Qs - 5-4s and other questionable offsuit hands. Hero should c-bet knowing that Villain will be sticky with gutshots and weak pairs. It’s okay. Hero's range is uncapped and he can continue to barrel on any A, K, Q, J, or 9.
-
-Villain2 (CO)
-
-Hero (BTN)
 
 Villain checks. Hero bets $280. Villain folds.
 
@@ -3806,12 +2846,6 @@ artificial intelligence programs like PokerSnowie have proven that 3-bet-
 
 ting your entire continuance range out of the small blind will, in most cir. cumstances, be significantly more profitable than having a flatting range. used to be the only guy 3-betting K-J out of the small blind but now those days are over. I'm seeing more and more players implementing this strategy. The good news is that some of them are actually 3-betting too much,
 
-Villain2 (BB)
-
-Villain1 (SB)
-
-Hero (BTN)
-
 $5-$10NL: Hero raises to $30. The Small Blind raises to $100. Hero 4-bets to $250. The Small Blind calls.
 
 Wabsin should be 3-betting about 16% of the time versus button ont if he 3-bets more than 20% of the time, there's really no way for him profitably defend against 4-bets. So feel free to give the small blind the business if you start seeing him 3-bet hands like 1 Oo or A-80.
@@ -3821,10 +2855,6 @@ ou should usually call with the suited aces if the small blind is aah Ing at an 
 [257] 20230612_185517.jpg
 
 he has to risk $1 400 to your ye20) ii he decides to 5-bet to asmaller size he'll be priced in to call with all but his weakest holdings. if Pitechiescto call he'll be out of position, ina bloated pot, witha bunch of weak holdings. How do those options sound? Sizing is key.
-
-Villain’ (SB)
-
-Hero (BTN)
 
 Villain checks. Hero bets $350. Villain calls.
 
@@ -3840,10 +2870,6 @@ There are two betting patterns that can be used when the stack-topot ratio is 2.
 
 [258] 20230612_185528.jpg
 
-Villain (SB)
-
-Hero (BTN)
-
 Villain checks. Hero bets $900 all-in. Villain folds.
 
 This is one of the best possible turn cards for Hero. He isn’t risking $900 to win $1,200. He's risking $900 to win $2,100 because he has about 34% equity if Villain calls. Just take the total pot size and multiply it by Hero's equity to figure out his expected value when called: 34% of $3,000 is $1,020. Hero will net $120 even if Villain never folds.
@@ -3851,12 +2877,6 @@ This is one of the best possible turn cards for Hero. He isn’t risking $900 to
 Calling 4-Bets Out of Position
 
 Pro tip: It’s better to flat a 4-bet with Q-Q if Villain is only calling a shove with Q-Q+/A-K.
-
-Villain2 (BB)
-
-Hero (SB)
-
-Villian (BTN)
 
 a Lie lie i A a ah to $30. Hero raises to $100. The
 
@@ -3866,29 +2886,17 @@ Obviously, Hero should 3-bet Q-Q for value, But what should he 4 g
 
 [259] 20230612_185533.jpg
 
-the button 4-bets? It’s a tough call. PokerSnowie says to shove if stacks are 100bb or less. The problem is that PokerSnowie assumes Villain is playing perfectly.
-
-Hero (SB)
-
-Villian1 (BTN)
+the button 4-bets? It’s a tough call. PokerSnowie says to shove if stacks are 100bb or less. The problem is that PokerSnowie assumes Villain is play-
 
 Hero checks. Villain bets $250. Hero calls.
 
-Most players are reluctant to call a pre-flop shove with a hand worse than Q-Q. | prefer to call the 4-bet and allow Villain to barrel too often on flops and turns in this situation. | think this line generates quite a bit more value against bad regs.
-
-Hero (SB)
-
-Villian (BTN)
-
-Hero checks. Villain checks.
+Most players are reluctant to call a pre-flop shove with a hand worse than Q-Q. | prefer to call the 4-bet and allow Villain to barrel too often on flops and turns in this situation. | think this line generates quite a bit more
 
 Hero should check-call any turn that isn’t a king or an ace. He II lose to K-K+ a decent Percentage of the time. The result would've been the same if shoved pre-flop. The difference is that this line allows Villain to to make more mistakes.
 
 03 - Post-Flop Play
 
 [260] 20230612_185546.jpg
-
-Hero (SB) Villian (BTN)
 
 Hero bets $500. Villain folds.
 
@@ -3898,12 +2906,6 @@ Calling 4-Bets in Position
 
 Pro tip: Buy overcard equity against greedy Villains.
 
-Villain3 (BB)
-
-Villain2 (SB) Villain (CO)
-
-Hero (BTN)
-
 $5-$10NL: The Cutoff raises to $30. Hero raises to $100: Th Cutoff 4-bets to $250. Hero calls.
 
 lm hn “sf ?49U. Nero Calls. the eae of players are not 4-betting at an appropriate frequen)
@@ -3912,17 +2914,9 @@ lm hn “sf ?49U. Nero Calls. the eae of players are not 4-betting at an appropr
 
 [261] 20230612_185548.jpg
 
-Villain (CO)
-
-Hero (BTN)
-
 Villain bets $250. Hero calls.
 
 There is no logical argument for folding to one bet on this flop. In order to call the 4-bet with J-J, Hero must assume that Villain is 4-betting with A-K the majority of the time. If that’s Hero’s assumption, he must also assume that Villain will c-bet with A¥Y-Kx and the occasional bluff from time to time.
-
-Villain1 (CO)
-
-Hero (BTN)
 
 Villain checks. Hero bets $250. Villain folds.
 
@@ -3938,14 +2932,6 @@ Cold 4-Betting from the Big Blind
 
 Pro tip: Consider throwing in a 4-bet bluff if Villain is 3-betting over 20%
 
-of the time.
-
-Hero (BB)
-
-Villain2 (SB)
-
-Villain1 (BTN)
-
 $5-$10NL: The Button raises to $30. The Small Blind raises to $100. Hero 4-bets to $250. The Button folds. The Small Blind folds.
 
 As discussed earlier, more and more pros are adopting the 3-bet or fold strategy out of the small blind. Many of them are 3-betting well over 20% of the time. It’s impossible for them to defend against a 4-bet at an appropriate frequency. Some of them know this and simply don’t care because nobody ever bothers to 4-bet them light.
@@ -3956,25 +2942,11 @@ Having an ace in your hand makes it 25% less likely for Villain to rave] A-K and
 
 [263] 20230612_185557.jpg
 
-Without A¢ Blocker With A¢ Blocker
-
-Aska Atk¥ Aske, Aske,
-
-AHKO ASKY ASKS ASKS, Aake A®KY ASKS Ade,
-
-APA% AVAG ABAD
-
 This weights Villain’s range toward air and increases the fold equity that Hero can generate. Moreover, it gives Hero at least 29% equity against K-K. Hero's equity goes up to 33% if he has a suited ace with wheel draw potential. It’s a lethal play when stacks are deep.
 
 Cold 4-Betting from the Small Blind
 
 Pro tip: 4-bet the button when the cutoff is opening too wide.
-
-Villain3 (BB)
-
-Villain? (CO) Hero (SB)
-
-Villain2 (BTN)
 
 $5-S10NL: The Cutoff raises to $30. The Button raises to $100. £r0 4-bets to $250, The Cutoff folds. The Button cals:
 
@@ -3986,27 +2958,15 @@ way hands that aren't strong enough to call a 3-bet.
 
 [264] 20230612_185603.jpg
 
-Hero (SB) Villain2 (BTN)
-
 Hero checks. Villain checks.
 
 There are two lines that Hero could take here. He could bet the flop and check-call blank turns against Villains who float to stab with hands like A-Q, A-J, Q-J, Q-9s, and J-9s. More commonly, he could check intending to call and continue on A, 10 and club turns. | prefer to check-call because it's a lower variance line that requires fewer assumptions.
-
-Hero (SB)
-
-Villain2 (BTN)
 
 Hero checks. Villain bets $270. Hero calls.
 
 Check-calling and bet-calling are both reasonable options on this bean Hero is more likely to induce a bet from worse than he is to get called y
 
 [265] 20230612_185606.jpg
-
-Hero (SB)
-
-Villain2 (BTN)
-
-Hero checks. Villain checks.
 
 Hero cold 4-bet in a spot where Villain was clearly 3-betting too often. He flopped a pair with showdown value and checked. He preserved his equity and induced Villain to bet the turn with worse. This is a great example of what you're trying to accomplish in awkward spots like this.
 
@@ -4026,10 +2986,6 @@ The last error is 5-betting for value ina sit Ac Stacks are So deep that you wil
 
 Pro tip: Flatting a 4-bet with A-K (especially out of position), in a situation where you can 5-bet all-in for 3-5 times Villain’s 4-bet, is a terrible line that you should never take.
 
-Hero (SB)
-
-Villain1 (BTN)
-
 $5-S1ONL: The Button raises to $30. Hero raises to $100: Th utton 4-bets to $250. Hero 5-bets to $1,000 all-in. The Button c">
 
 ero snould almost never flat out . rifice
@@ -4046,8 +3002,6 @@ Villain needs to be folding 18% of the time for Hero to break even, Deconstruct 
 
 (Air Combos)/(Air Combos + Value Combos) = 0.18 5/(5 + 21) =0.19
 
-Combos Hands
-
 Villain is calling off with 21 combos. He needs to 4-bet fold be ‘ne five combos for Hero to breakeven. Basically, Hero should shove if Villain ever 4-bet folds J-J or any other air type hands.
 
 Now why is this better than calling the 4-bet? It's very simple. Calling © 4-bet allows Villain to realize most of his equity. It also makes It air" cult for Hero to realize all of his equity. He’s going to have to eheek-fold the flop about half the time.
@@ -4057,12 +3011,6 @@ Why sacrifice equity by calling the 4-bet when he can generate fold equity by 5-
 [268] 20230612_185623.jpg
 
 5-Betting in Position
-
-Villain3 (BB)
-
-Villaint (CO) Villain2 (SB)
-
-Hero (BTN)
 
 Live regs rarely 4-bet/fold when stacks are 100bb. Thus, you can have a 5-betting range at that stack depth. However, you should choose to flat your entire continuing range around 200bb. There are very few live pros willing to call off 150bb+ with less than K-K.
 

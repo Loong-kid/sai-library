@@ -1,0 +1,28 @@
+{
+  "tables": {
+    "18": [
+      {"id":"p18-draws","kind":"table","method":"verified-data","caption":"Type of draw and number of outs","beforeParagraph":0,"replaces":[0,1,2,3,4],"headers":["Type of draw","Outs","Example"],"rows":[["Gutshot","4","9♥-8♦ on A♥-6♦-5♣"],["Open-ended straight draw","8","9♥-8♦ on A♥-7♦-6♣"],["Flush draw","9","K♥-Q♥ on A♥-7♥-6♣"],["Set to full house","7–10","7♣-7♥ on 7♦-4♦-2♦"]]},
+      {"id":"p18-outs","kind":"table","method":"verified-data","caption":"Odds of improving · 1–7 outs","beforeParagraph":8,"replaces":[8,9,10,11,12,13,14,15],"headers":["Outs","Flop to turn","Turn to river","Flop to river"],"rows":[["1","2.13%","2.17%","4.26%"],["2","4.26%","4.35%","8.42%"],["3","6.38%","6.52%","12.49%"],["4","8.51%","8.70%","16.47%"],["5","10.64%","10.87%","20.35%"],["6","12.77%","13.04%","24.14%"],["7","14.89%","15.22%","27.84%"]]}
+    ],
+    "22": [
+      {"id":"p22-backdoor","kind":"table","method":"verified-data","caption":"Backdoor draws · continued from page 21","box":[100,0,1510,730],"headers":["Draw","Combinations","Probability","Odds"],"rows":[["3 Card Straight 1 Gap w/o ace (6-7-9)","32","3.0%","32-to-1"],["3 Card Straight 1 Gap With Ace (A-2-4)","16","1.5%","66-to-1"],["3 Card Straight 2 Gaps (A-4-5)","16","1.5%","66-to-1"],["3 Card Flush (6♥-8♥-Q♥)","45","4.2%","23-to-1"],["One Pair-to-a Full House (5-5-9-10-K)","27","2.5%","27-to-1"],["One Pair-to-Quads (6-10-J-6-7)","1","0.93%","1,080-to-1"]]}
+    ],
+    "183": [
+      {"id":"p183-turn-equity","kind":"table","method":"verified-data","caption":"Turn cards, equity and fold equity","box":[170,525,1600,1080],"headers":["Draw","Cards","Equity","Fold equity"],"rows":[["Gutshot","J♠, J♣, J♦, 5♠, 5♥, 5♦","9%","24%"],["OESD","10♠, 10♣, 10♦, 6♠, 6♥, 6♦","17%","14%"],["Flush draw","A–J♥, 4–2♥","20%","9%"],["Gutshot + FD","J♥, 5♥","26%","0%"],["OESD","10♥, 6♥","33%","0%"]]}
+    ],
+    "228": [
+      {"id":"p228-turn-draws","kind":"table","method":"verified-data","caption":"Turn draws and cards to represent","box":[190,0,1650,805],"headers":["Draw","Cards"],"rows":[["Top pair","Q♥, Q♣, Q♦, J♥, J♣, J♦"],["OESD","10♥, 10♣, 10♦"],["OESD + FD","10♠"],["Gutshot","K♥, K♣, K♦, 8♥, 8♣, 8♠"],["Gutshot + FD","K♠, 8♠"],["Clubs to rep","A♣, 7♣, 6♣, 5♣, 4♣, 2♣"]]}
+    ],
+    "19": [
+      {"id":"p19-outs","kind":"table","method":"verified-data","caption":"Odds of improving · 8–20 outs","beforeParagraph":0,"replaces":[0,1,2,3,4,5,6,7,8,9,10,11,12,13],"headers":["Outs","Flop to turn","Turn to river","Flop to river"],"rows":[["8","17.02%","17.39%","31.45%"],["9","19.15%","19.57%","34.97%"],["10","21.28%","21.74%","38.39%"],["11","23.40%","23.91%","41.72%"],["12","25.53%","26.09%","44.96%"],["13","27.66%","28.26%","48.10%"],["14","29.79%","30.43%","51.16%"],["15","31.91%","32.61%","54.12%"],["16","34.04%","34.78%","56.98%"],["17","36.17%","36.96%","59.76%"],["18","38.30%","39.13%","62.44%"],["19","40.43%","41.30%","65.03%"],["20","42.55%","43.48%","67.53%"]]}
+    ]
+  },
+  "pies": {
+    "24":[{"caption":"Pot odds · $100 / $300","values":[33,33,33],"labels":["His bet","Your call","Chips in middle"]}],
+    "25":[{"caption":"Pot odds · $50 / $200","values":[25,25,50],"labels":["His bet","Your call","Chips in middle"]},{"caption":"Pot odds · $200 / $500","values":[40,40,20],"labels":["His bet","Your call","Chips in middle"]}],
+    "28":[{"caption":"Fold equity · $100 / $200","values":[50,50],"labels":["Your bet","Chips in middle"]}],
+    "29":[{"caption":"Fold equity · $50 / $150","values":[33,67],"labels":["Your bet","Chips in middle"]},{"caption":"Fold equity · $200 / $300","values":[67,33],"labels":["Your bet","Chips in middle"]}],
+    "33":[{"caption":"Minimum defense frequency · half-pot bet","values":[33,67],"labels":["Fold equity needed","Minimum defense frequency"]},{"caption":"Minimum defense frequency · pot-size bet","values":[50,50],"labels":["Fold equity needed","Minimum defense frequency"]}],
+    "34":[{"caption":"Minimum defense frequency · double-pot bet","values":[67,33],"labels":["Fold equity needed","Minimum defense frequency"]}]
+  }
+}
